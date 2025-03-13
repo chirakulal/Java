@@ -1,0 +1,4 @@
+class RatPoisonRunner{
+
+	public static void main()
+}
