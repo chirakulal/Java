@@ -1,0 +1,8 @@
+class Chocolate{
+
+String name;
+int price;
+String flavour;
+int weight;
+
+}
