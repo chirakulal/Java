@@ -1,0 +1,17 @@
+class StarRunner{
+	
+	public static void main(String[] args){
+		
+		Star star1 = new Star();
+		Star star2 = new Star();
+		Star star3 = new Star();
+		Star star4 = new Star();
+		Star star5 = new Star();
+		Star star6 = new Star();
+		Star star7 = new Star();
+		Star star8 = new Star();
+		Star star9 = new Star();
+		
+		
+	}
+}

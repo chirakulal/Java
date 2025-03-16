@@ -1,0 +1,3 @@
+enum Fooditems{
+	CHAPATHI,EGGOMLET,IDLI
+}
