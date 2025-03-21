@@ -2,9 +2,9 @@ package com.xworkz.March20;
 
 public class Clip {
 
-    String color;
+    Color color;
 
-    Clip(String color){
+    Clip(Color color){
         this.color = color;
         System.out.println("the color is "+this.color);
     }
