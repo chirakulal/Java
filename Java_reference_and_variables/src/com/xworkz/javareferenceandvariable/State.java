@@ -5,6 +5,9 @@ public class State {
     String capital;
     int population;
     double area;
+     City city = new City("mangluru",5,"kamath","50018");
+     District[] district = new District[]{new District("dk","mangaluru",5,10),
+             new District("udupi","manipal",3,8)};
 
     State(String name,String capital,int population,double area){
         this.name=name;
@@ -16,6 +19,11 @@ public class State {
 
     void display(){
         System.out.println("running display in State");
-
+        if(city!=null&&district!=null){
+            city.display();
+            for(District ref1:district){
+                ref1.display();
+            }
+        }
     }
 }
