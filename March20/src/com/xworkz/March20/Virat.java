@@ -10,8 +10,8 @@ public class Virat {
     void play(Cricket cricket){
         System.out.println("running play in Virat class");
         if(cricket!=null){
-            cricket.watch(ticket);
-            cricket.profit(ticket);
+            cricket.watch();
+            cricket.profit();
         }
         else System.out.println("reference is pointing to null");
     }
