@@ -5,7 +5,7 @@ public class Security {
     int personnelCount;
     String level;
     boolean armed;
-    Personnel personnel = new Personnel("guards",123,4,true);
+    Personnel personnel = new Personnel("guards",123,"4",true);
     Security(String type,int personnelCount,String level,boolean armed){
         this.type=type;
         this.personnelCount=personnelCount;
