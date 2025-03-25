@@ -57,6 +57,7 @@ public class Operations {
           }
 
     }
+
     public void operate(Satellite[] satellites){
         System.out.println("Running operate in Operation");
         if(satellites!=null) {

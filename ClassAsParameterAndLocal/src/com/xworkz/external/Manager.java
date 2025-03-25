@@ -5,6 +5,7 @@ import com.xworkz.internal.Type;
 
 public class Manager {
 
+
     public void capture(){
         System.out.println("Running capture in camera");
 

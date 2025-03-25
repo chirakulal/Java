@@ -15,6 +15,7 @@ public class Camera {
     public double getPrice(){
         return  this.price;
     }
+
     public Type getType(){
         return this.type;
     }

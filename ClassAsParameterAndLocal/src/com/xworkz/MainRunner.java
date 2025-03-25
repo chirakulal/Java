@@ -7,6 +7,7 @@ import java.security.AlgorithmConstraints;
 
 public class MainRunner {
 
+
     public static void main(String[] args) {
         Jail jail1 = new Jail();
         jail1.setTotalCells(30);

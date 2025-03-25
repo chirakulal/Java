@@ -29,6 +29,7 @@ public class Criminals {
         }
     }
 
+
     public void corruption(){
         System.out.println("Running corruption in Criminal");
         Jail jail = new Jail();

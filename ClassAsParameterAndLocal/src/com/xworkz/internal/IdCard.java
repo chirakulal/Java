@@ -8,6 +8,7 @@ public class IdCard {
     private double weight;
     private String designedBy;
 
+
     public IdCard(){
         System.out.println("no-arg Const running in IdCard");
     }

@@ -5,6 +5,7 @@ public class Alien {
     private String seendate;
     private String describe;
 
+
     public Alien(){
         System.out.println("Running no-argu const");
     }
