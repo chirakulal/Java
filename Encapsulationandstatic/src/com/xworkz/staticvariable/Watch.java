@@ -4,6 +4,7 @@ public class Watch {
 
         public static String brand;
 
+
         private int price;
 
         public Watch()

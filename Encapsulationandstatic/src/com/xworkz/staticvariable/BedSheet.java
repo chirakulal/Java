@@ -4,6 +4,7 @@ public class BedSheet {
 
     public static final String type;
 
+
    public BedSheet(){
         System.out.println("no-arg const is running");
     }
