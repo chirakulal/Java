@@ -5,6 +5,7 @@ public class Mirror {
     private String shape;
     private int price;
 
+
     public Mirror(){
         System.out.println("no-argu const is running");
     }

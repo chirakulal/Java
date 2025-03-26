@@ -8,6 +8,7 @@ public class WatchRunner {
            Watch.brand="titan";
            watch.setPrice(3000);
 
+
         System.out.println(watch.brand);
         System.out.println(watch.getPrice());
         System.out.println(Watch.brand);

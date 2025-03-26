@@ -4,6 +4,7 @@ public class Customer {
 
     public  void reflection(Mirror mirror){
 
+
         System.out.println("The refelection is running Customer");
           if(mirror!=null){
               mirror.setShape("Round");
