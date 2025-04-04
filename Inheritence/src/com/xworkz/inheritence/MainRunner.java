@@ -2,6 +2,7 @@ package com.xworkz.inheritence;
 
 import com.xworkz.inheritence.external.*;
 import com.xworkz.inheritence.internal.*;
+import sun.applet.Main;
 
 public class MainRunner {
 
@@ -866,7 +867,7 @@ public class MainRunner {
         vegetable7.pesticide();
         vegetable7.water();
 
-        Raddish raddish= new Raddish();
+        Raddish raddish = new Raddish();
         raddish.grow();
         raddish.harvest();
         raddish.nutrients();
@@ -936,12 +937,12 @@ public class MainRunner {
         vehicle13.speed();
         vehicle13.accelerate();
 
-        Bulldozer bulldozer= new Bulldozer();
-       bulldozer.accelerate();
-       bulldozer.brake();
-       bulldozer.speed();
-       bulldozer.start();
-       bulldozer.stop();
+        Bulldozer bulldozer = new Bulldozer();
+        bulldozer.accelerate();
+        bulldozer.brake();
+        bulldozer.speed();
+        bulldozer.start();
+        bulldozer.stop();
 
         System.out.println("-----------------------------------------------------------------------");
 
@@ -1185,7 +1186,7 @@ public class MainRunner {
         food.empty();
         food.ingredients();
 
-        Food food1= new Pizza();
+        Food food1 = new Pizza();
         food1.eat();
         food1.addSpinach();
         food1.empty();
@@ -1273,7 +1274,1072 @@ public class MainRunner {
         System.out.println("----------------------------------------------------------------------------");
 
 
+        Toy toy = new Toy();
+        toy.clean();
+        toy.throwToy();
+        toy.shake();
+        toy.squeeze();
+        toy.store();
+
+        Toy toy1 = new TeddyBear();
+        toy1.clean();
+        toy1.throwToy();
+        toy1.shake();
+        toy1.squeeze();
+        toy1.store();
+
+        TeddyBear teddyBear = new TeddyBear();
+        teddyBear.clean();
+        teddyBear.squeeze();
+        teddyBear.shake();
+        teddyBear.store();
+        teddyBear.throwToy();
+
+        System.out.println("------------------------------------------------------------------------");
 
 
+        NetworkDevice networkDevice = new NetworkDevice();
+        networkDevice.connect();
+        networkDevice.disconnect();
+        networkDevice.receiveData();
+        networkDevice.transmitData();
+        networkDevice.reboot();
+
+        NetworkDevice networkDevice1 = new Router();
+        networkDevice1.connect();
+        networkDevice1.disconnect();
+        networkDevice1.receiveData();
+        networkDevice1.transmitData();
+        networkDevice1.reboot();
+
+        Router router = new Router();
+        router.connect();
+        router.reboot();
+        router.disconnect();
+        router.transmitData();
+        router.receiveData();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Drawing drawing = new Drawing();
+        drawing.clean();
+        drawing.colourFull();
+        drawing.dry();
+        drawing.use();
+        drawing.dipInPaint();
+
+        Drawing drawing1 = new PaintBrush();
+        drawing1.clean();
+        drawing1.colourFull();
+        drawing1.dry();
+        drawing1.use();
+        drawing1.dipInPaint();
+
+        PaintBrush paintBrush = new PaintBrush();
+        paintBrush.dipInPaint();
+        paintBrush.dry();
+        paintBrush.use();
+        paintBrush.colourFull();
+        paintBrush.clean();
+
+        System.out.println("--------------------------------------------------------------------");
+
+        Medicine medicine = new Medicine();
+        medicine.checkExpiry();
+        medicine.consume();
+        medicine.measureDosage();
+        medicine.prescribe();
+        medicine.storeProperly();
+
+        Medicine medicine1 = new Antibiotic();
+        medicine1.checkExpiry();
+        medicine1.consume();
+        medicine1.measureDosage();
+        medicine1.prescribe();
+        medicine1.storeProperly();
+
+
+        Antibiotic antibiotic = new Antibiotic();
+        antibiotic.checkExpiry();
+        antibiotic.measureDosage();
+        antibiotic.consume();
+        antibiotic.storeProperly();
+        antibiotic.prescribe();
+
+
+        System.out.println("---------------------------------------------------------------------");
+
+        Game game = new Game();
+        game.end();
+        game.pause();
+        game.reset();
+        game.saveProgress();
+        game.start();
+
+
+        Game game1 = new Chess();
+        game1.end();
+        game1.pause();
+        game1.reset();
+        game1.saveProgress();
+        game1.start();
+
+
+        Chess chess = new Chess();
+        chess.end();
+        chess.reset();
+        chess.pause();
+        chess.saveProgress();
+        chess.start();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        Weapon weapon = new Weapon();
+        weapon.sharpen();
+        weapon.attack();
+        weapon.defend();
+        weapon.equip();
+        weapon.storeSafely();
+
+        Weapon weapon1 = new Sword();
+        weapon1.sharpen();
+        weapon1.attack();
+        weapon1.defend();
+        weapon1.equip();
+        weapon1.storeSafely();
+
+        Sword sword = new Sword();
+        sword.attack();
+        sword.equip();
+        sword.defend();
+        sword.sharpen();
+        sword.storeSafely();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        StorageDevice storageDevice = new StorageDevice();
+        storageDevice.checkHealth();
+        storageDevice.eject();
+        storageDevice.format();
+        storageDevice.readData();
+        storageDevice.writeData();
+
+        StorageDevice storageDevice1 = new HardDisk();
+        storageDevice1.checkHealth();
+        storageDevice1.eject();
+        storageDevice1.format();
+        storageDevice1.readData();
+        storageDevice1.writeData();
+
+        HardDisk hardDisk = new HardDisk();
+        hardDisk.checkHealth();
+        hardDisk.format();
+        hardDisk.eject();
+        hardDisk.readData();
+        hardDisk.writeData();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Timepiece timepiece = new Timepiece();
+        timepiece.adjustTime();
+        timepiece.checkBattery();
+        timepiece.displayTime();
+        timepiece.setAlarm();
+        timepiece.startTimer();
+
+        Timepiece timepiece1 = new Watch();
+        timepiece1.adjustTime();
+        timepiece1.checkBattery();
+        timepiece1.displayTime();
+        timepiece1.setAlarm();
+        timepiece1.startTimer();
+
+        Watch watch = new Watch();
+        watch.adjustTime();
+        watch.checkBattery();
+        watch.displayTime();
+        watch.setAlarm();
+        watch.startTimer();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        Tree tree = new Tree();
+        tree.bearFruit();
+        tree.grow();
+        tree.photosynthesize();
+        tree.provideOxygen();
+        tree.shedLeaves();
+
+        Tree tree1 = new OakTree();
+        tree1.bearFruit();
+        tree1.grow();
+        tree1.photosynthesize();
+        tree1.provideOxygen();
+        tree1.shedLeaves();
+
+
+        OakTree oakTree = new OakTree();
+        oakTree.bearFruit();
+        oakTree.photosynthesize();
+        oakTree.grow();
+        oakTree.provideOxygen();
+        oakTree.shedLeaves();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        PaymentMethod paymentMethod = new PaymentMethod();
+        paymentMethod.makePayment();
+        paymentMethod.validatePayment();
+        paymentMethod.addFunds();
+        paymentMethod.checkBalance();
+        paymentMethod.viewTransactions();
+
+        PaymentMethod paymentMethod1 = new CreditCard();
+        paymentMethod1.makePayment();
+        paymentMethod1.validatePayment();
+        paymentMethod1.addFunds();
+        paymentMethod1.checkBalance();
+        paymentMethod1.viewTransactions();
+
+
+        CreditCard creditCard = new CreditCard();
+        creditCard.addFunds();
+        creditCard.checkBalance();
+        creditCard.makePayment();
+        creditCard.validatePayment();
+        creditCard.viewTransactions();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        Computer computer = new Computer();
+        computer.bootUp();
+        computer.connectToInternet();
+        computer.processTask();
+        computer.shutDown();
+        computer.updateSoftware();
+
+        Computer computer1 = new Laptop();
+        computer1.bootUp();
+        computer1.connectToInternet();
+        computer1.processTask();
+        computer1.shutDown();
+        computer1.updateSoftware();
+
+        Laptop laptop = new Laptop();
+        laptop.bootUp();
+        laptop.processTask();
+        laptop.connectToInternet();
+        laptop.updateSoftware();
+        laptop.shutDown();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+        Camera camera = new Camera();
+        camera.adjustFocus();
+        camera.capturePhoto();
+        camera.changeLens();
+        camera.viewGallery();
+        camera.recordVideo();
+
+        Camera camera1 = new DSLR();
+        camera1.adjustFocus();
+        camera1.capturePhoto();
+        camera1.changeLens();
+        camera1.viewGallery();
+        camera1.recordVideo();
+
+        DSLR dslr = new DSLR();
+        dslr.adjustFocus();
+        dslr.capturePhoto();
+        dslr.recordVideo();
+        dslr.changeLens();
+        dslr.viewGallery();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+        Tool tool = new Tool();
+        tool.checkDurability();
+        tool.maintain();
+        tool.repair();
+        tool.use();
+        tool.storeSafely();
+
+        Tool tool1 = new Hammer();
+        tool1.checkDurability();
+        tool1.maintain();
+        tool1.repair();
+        tool1.use();
+        tool1.storeSafely();
+
+        Hammer hammer = new Hammer();
+        hammer.checkDurability();
+        hammer.repair();
+        hammer.maintain();
+        hammer.storeSafely();
+        hammer.use();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Clock clock = new Clock();
+        clock.resetClock();
+        clock.stopClock();
+        clock.setAlarm();
+        clock.tick();
+        clock.showTime();
+
+
+        Clock clock1 = new DigitalClock();
+        clock1.resetClock();
+        clock1.stopClock();
+        clock1.setAlarm();
+        clock1.tick();
+        clock1.showTime();
+
+        DigitalClock digitalClock = new DigitalClock();
+        digitalClock.resetClock();
+        digitalClock.showTime();
+        digitalClock.stopClock();
+        digitalClock.tick();
+        digitalClock.setAlarm();
+
+        System.out.println("----------------------------------------------------------------------");
+
+        Sport sport = new Sport();
+        sport.followRules();
+        sport.lose();
+        sport.play();
+        sport.win();
+        sport.practice();
+
+        Sport sport1 = new FootBall();
+        sport1.followRules();
+        sport1.lose();
+        sport1.play();
+        sport1.win();
+        sport1.practice();
+
+        FootBall footBall = new FootBall();
+        footBall.followRules();
+        footBall.lose();
+        footBall.win();
+        footBall.play();
+        footBall.practice();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        Beverage beverage = new Beverage();
+        beverage.addSugar();
+        beverage.drink();
+        beverage.checkTemperature();
+        beverage.serve();
+        beverage.prepare();
+
+        Beverage beverage1 = new Coffee();
+        beverage1.addSugar();
+        beverage1.drink();
+        beverage1.checkTemperature();
+        beverage1.serve();
+        beverage1.prepare();
+
+        Coffee coffee = new Coffee();
+        coffee.addSugar();
+        coffee.checkTemperature();
+        coffee.drink();
+        coffee.prepare();
+        coffee.serve();
+
+        System.out.println("----------------------------------------------------------------------");
+
+        Planet planet = new Planet();
+        planet.experienceSeasons();
+        planet.revolve();
+        planet.maintainGravity();
+        planet.rotate();
+        planet.supportLife();
+
+        Planet planet1 = new Earth();
+        planet1.experienceSeasons();
+        planet1.revolve();
+        planet1.maintainGravity();
+        planet1.rotate();
+        planet1.supportLife();
+
+        Earth earth = new Earth();
+        earth.experienceSeasons();
+        earth.maintainGravity();
+        earth.revolve();
+        earth.rotate();
+        earth.supportLife();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+        Gadget gadget = new Gadget();
+        gadget.charge();
+        gadget.connectToWiFi();
+        gadget.turnOff();
+        gadget.turnOn();
+        gadget.updateSoftware();
+
+        Gadget gadget1 = new Smartphone();
+        gadget1.charge();
+        gadget1.connectToWiFi();
+        gadget1.turnOff();
+        gadget1.turnOn();
+        gadget1.updateSoftware();
+
+
+        Smartphone smartphone = new Smartphone();
+        smartphone.charge();
+        smartphone.connectToWiFi();
+        smartphone.turnOff();
+        smartphone.turnOn();
+        smartphone.updateSoftware();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Currency currency = new Currency();
+        currency.calculateValue();
+        currency.exchange();
+        currency.storeValue();
+        currency.transfer();
+        currency.useForTransactions();
+
+        Currency currency1 = new DigitalCurrency();
+        currency1.calculateValue();
+        currency1.exchange();
+        currency1.storeValue();
+        currency1.transfer();
+        currency1.useForTransactions();
+
+        DigitalCurrency digitalCurrency = new DigitalCurrency();
+        digitalCurrency.calculateValue();
+        digitalCurrency.storeValue();
+        digitalCurrency.transfer();
+        digitalCurrency.exchange();
+        digitalCurrency.useForTransactions();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        Light light = new Light();
+        light.emitLight();
+        light.adjustBrightness();
+        light.saveEnergy();
+        light.turnOff();
+        light.turnOn();
+
+
+        Light light1 = new LEDBulb();
+        light1.emitLight();
+        light1.adjustBrightness();
+        light1.saveEnergy();
+        light1.turnOff();
+        light1.turnOn();
+
+        LEDBulb ledBulb = new LEDBulb();
+        ledBulb.adjustBrightness();
+        ledBulb.saveEnergy();
+        ledBulb.emitLight();
+        ledBulb.turnOff();
+        ledBulb.turnOn();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        Flower flower = new Flower();
+        flower.absorbSunlight();
+        flower.bloom();
+        flower.attractBees();
+        flower.releaseFragrance();
+        flower.provideNectar();
+
+        Flower flower1 = new Rose();
+        flower1.absorbSunlight();
+        flower1.bloom();
+        flower1.attractBees();
+        flower1.releaseFragrance();
+        flower1.provideNectar();
+
+        Rose rose = new Rose();
+        rose.absorbSunlight();
+        rose.attractBees();
+        rose.provideNectar();
+        rose.releaseFragrance();
+        rose.bloom();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        Fish fish = new Fish();
+        fish.breatheUnderwater();
+        fish.camouflage();
+        fish.eatPlankton();
+        fish.layEggs();
+        fish.swim();
+
+        Fish fish1= new Shark();
+        fish1.breatheUnderwater();
+        fish1.camouflage();
+        fish1.eatPlankton();
+        fish1.layEggs();
+        fish1.swim();
+
+
+        Shark shark = new Shark();
+        shark.breatheUnderwater();
+        shark.eatPlankton();
+        shark.camouflage();
+        shark.layEggs();
+        shark.swim();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        Mountain mountain = new Mountain();
+        mountain.attractTourists();
+        mountain.provideResources();
+        mountain.standTall();
+        mountain.experienceWeatherChanges();
+        mountain.supportEcosystem();
+
+        Mountain mountain1 = new Everest();
+        mountain1.attractTourists();
+        mountain1.provideResources();
+        mountain1.standTall();
+        mountain1.experienceWeatherChanges();
+        mountain1.supportEcosystem();
+
+        Everest everest = new Everest();
+        everest.attractTourists();
+        everest.provideResources();
+        everest.supportEcosystem();
+        everest.experienceWeatherChanges();
+        everest.standTall();
+
+        System.out.println("---------------------------------------------------------------------------");
+
+        Reptile reptile = new Reptile();
+        reptile.camouflage();
+        reptile.crawl();
+        reptile.hibernate();
+        reptile.hunt();
+        reptile.shedSkin();
+
+        Reptile reptile1 = new Snake();
+        reptile1.camouflage();
+        reptile1.crawl();
+        reptile1.hibernate();
+        reptile1.hunt();
+        reptile1.shedSkin();
+
+        Snake snake = new Snake();
+        snake.camouflage();
+        snake.crawl();
+        snake.hibernate();
+        snake.hunt();
+        snake.shedSkin();
+
+        System.out.println("---------------------------------------------------------------------------");
+
+        Newspaper newspaper = new Newspaper();
+        newspaper.advertise();
+        newspaper.distribute();
+        newspaper.printNews();
+        newspaper.provideInformation();
+        newspaper.updateDaily();
+
+        Newspaper newspaper1 = new Magazine();
+        newspaper1.advertise();
+        newspaper1.distribute();
+        newspaper1.printNews();
+        newspaper1.provideInformation();
+        newspaper1.updateDaily();
+
+        Magazine magazine = new Magazine();
+        magazine.advertise();
+        magazine.distribute();
+        magazine.printNews();
+        magazine.provideInformation();
+        magazine.updateDaily();
+
+        System.out.println("---------------------------------------------------------------------------");
+
+        Gemstone gemstone = new Gemstone();
+        gemstone.cut();
+        gemstone.embedInJewelry();
+        gemstone.polish();
+        gemstone.sell();
+        gemstone.shine();
+
+        Gemstone gemstone1 = new Diamond();
+        gemstone1.cut();
+        gemstone1.embedInJewelry();
+        gemstone1.polish();
+        gemstone1.sell();
+        gemstone1.shine();
+
+        Diamond diamond = new Diamond();
+        diamond.cut();
+        diamond.embedInJewelry();
+        diamond.polish();
+        diamond.sell();
+        diamond.shine();
+
+        System.out.println("------------------------------------------------------------------------------");
+
+        Document document = new Document();
+        document.open();
+        document.print();
+        document.read();
+        document.save();
+        document.write();
+
+        Document document1 = new Books();
+        document1.open();
+        document1.print();
+        document1.read();
+        document1.save();
+        document1.write();
+
+        Books books = new Books();
+        books.open();
+        books.print();
+        books.read();
+        books.save();
+        books.write();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        Insect insect = new Insect();
+        insect.crawl();
+        insect.feed();
+        insect.fly();
+        insect.reproduce();
+        insect.undergoMetamorphosis();
+
+        Insect insect1 = new Butterfly();
+        insect1.crawl();
+        insect1.feed();
+        insect1.fly();
+        insect1.reproduce();
+        insect1.undergoMetamorphosis();
+
+        Butterfly butterfly = new Butterfly();
+        butterfly.crawl();
+        butterfly.feed();
+        butterfly.reproduce();
+        butterfly.undergoMetamorphosis();
+        butterfly.fly();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Jewel jewel = new Jewel();
+        jewel.polish();
+        jewel.sell();
+        jewel.shine();
+        jewel.store();
+        jewel.wear();
+
+        Jewel jewel1 = new Necklace();
+        jewel1.polish();
+        jewel1.sell();
+        jewel1.shine();
+        jewel1.store();
+        jewel1.wear();
+
+        Necklace necklace = new Necklace();
+        necklace.polish();
+        necklace.sell();
+        necklace.shine();
+        necklace.store();
+        necklace.wear();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Language language = new Language();
+        language.learn();
+        language.read();
+        language.speak();
+        language.translate();
+        language.write();
+
+        Language language1 = new English();
+        language1.learn();
+        language1.read();
+        language1.speak();
+        language1.translate();
+        language1.write();
+
+        English english = new English();
+        english.learn();
+        english.read();
+        english.translate();
+        english.write();
+        english.speak();
+
+        System.out.println("---------------------------------------------------------------------");
+
+
+        Software software = new Software();
+        software.configure();
+        software.run();
+        software.install();
+        software.uninstall();
+        software.update();
+
+        Software software1 = new OperatingSystem();
+        software1.configure();
+        software1.run();
+        software1.install();
+        software1.uninstall();
+        software1.update();
+
+        OperatingSystem operatingSystem = new OperatingSystem();
+        operatingSystem.configure();
+        operatingSystem.run();
+        operatingSystem.uninstall();
+        operatingSystem.install();
+        operatingSystem.update();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+        Browser browser = new Browser();
+        browser.close();
+        browser.extensions();
+        browser.open();
+        browser.incognitoMode();
+        browser.navigate();
+
+        Browser browser1 = new FireFox();
+        browser1.close();
+        browser1.extensions();
+        browser1.open();
+        browser1.incognitoMode();
+        browser1.navigate();
+
+
+        FireFox fireFox = new FireFox();
+        fireFox.close();
+        fireFox.extensions();
+        fireFox.incognitoMode();
+        fireFox.open();
+        fireFox.navigate();
+
+        System.out.println("----------------------------------------------------------------------");
+
+        Restaurant restaurant = new Restaurant();
+        restaurant.addIngredients();
+        restaurant.addsalt();
+        restaurant.clean();
+        restaurant.cook();
+        restaurant.taste();
+
+        Restaurant restaurant1 = new Chef();
+        restaurant1.addIngredients();
+        restaurant1.addsalt();
+        restaurant1.clean();
+        restaurant1.cook();
+        restaurant1.taste();
+
+        Chef  chef = new Chef();
+        chef.addIngredients();
+        chef.cook();
+        chef.taste();
+        chef.addsalt();
+        chef.clean();
+
+        System.out.println("----------------------------------------------------------------------");
+
+
+        Festival festival = new Festival();
+        festival.celebrate();
+        festival.decorate();
+        festival.enjoyMusic();
+        festival.feast();
+        festival.gatherPeople();
+
+        Festival festival1 = new Deepavali();
+        festival1.celebrate();
+        festival1.decorate();
+        festival1.enjoyMusic();
+        festival1.feast();
+        festival1.gatherPeople();
+
+        Deepavali deepavali = new Deepavali();
+        deepavali.celebrate();
+        deepavali.enjoyMusic();
+        deepavali.decorate();
+        deepavali.feast();
+        deepavali.gatherPeople();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        Shampoo shampoo = new Shampoo();
+        shampoo.apply();
+        shampoo.rub();
+        shampoo.clean();
+        shampoo.rinse();
+        shampoo.wash();
+
+        Shampoo shampoo1 = new CleanicPlus();
+        shampoo1.apply();
+        shampoo1.rub();
+        shampoo1.clean();
+        shampoo1.rinse();
+        shampoo1.wash();
+
+        CleanicPlus cleanicPlus = new CleanicPlus();
+        cleanicPlus.apply();
+        cleanicPlus.rub();
+        cleanicPlus.rinse();
+        cleanicPlus.wash();
+        cleanicPlus.clean();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        AudioDevice audioDevice = new AudioDevice();
+        audioDevice.beats();
+        audioDevice.call();
+        audioDevice.listen();
+        audioDevice.music();
+        audioDevice.play();
+
+        AudioDevice audioDevice1 = new Earphone();
+        audioDevice1.beats();
+        audioDevice1.call();
+        audioDevice1.listen();
+        audioDevice1.music();
+        audioDevice1.play();
+
+        Earphone earphone = new Earphone();
+        earphone.beats();
+        earphone.listen();
+        earphone.call();
+        earphone.music();
+        earphone.play();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        Bus bus = new Bus();
+        bus.pass();
+        bus.seat();
+        bus.reserved();
+        bus.stand();
+        bus.ticket();
+
+        Bus bus1 = new MaheshBus();
+        bus1.pass();
+        bus1.seat();
+        bus1.reserved();
+        bus1.stand();
+        bus1.ticket();
+
+        MaheshBus maheshBus = new MaheshBus();
+        maheshBus.pass();
+        maheshBus.seat();
+        maheshBus.reserved();
+        maheshBus.ticket();
+        maheshBus.stand();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        Footwear footwear = new Footwear();
+        footwear.remove();
+        footwear.run();
+        footwear.tie();
+        footwear.walk();
+        footwear.wear();
+
+        Footwear footwear1 = new Shoe();
+        footwear1.remove();
+        footwear1.run();
+        footwear1.tie();
+        footwear1.walk();
+        footwear1.wear();
+
+        Shoe shoe = new Shoe();
+        shoe.remove();
+        shoe.tie();
+        shoe.run();
+        shoe.walk();
+        shoe.wear();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Tournament tournament = new Tournament();
+        tournament.declareWinner();
+        tournament.entertainFans();
+        tournament.organize();
+        tournament.scheduleMatches();
+        tournament.teamsParticipate();
+
+        Tournament tournament1 = new IPL();
+        tournament1.declareWinner();
+        tournament1.entertainFans();
+        tournament1.organize();
+        tournament1.scheduleMatches();
+        tournament1.teamsParticipate();
+
+        IPL ipl = new IPL();
+        ipl.declareWinner();
+        ipl.organize();
+        ipl.entertainFans();
+        ipl.scheduleMatches();
+        ipl.teamsParticipate();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Drawing drawing2 = new Drawing();
+        drawing2.dipInPaint();
+        drawing2.use();
+        drawing2.dry();
+        drawing2.colourFull();
+        drawing2.colourFull();
+
+
+        Drawing drawing3 = new Pencil();
+        drawing3.dipInPaint();
+        drawing3.use();
+        drawing3.dry();
+        drawing3.colourFull();
+        drawing3.colourFull();
+
+        Pencil pencil = new Pencil();
+        pencil.clean();
+        pencil.dry();
+        pencil.use();
+        pencil.colourFull();
+        pencil.dipInPaint();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Fruit fruit = new Fruit();
+        fruit.eat();
+        fruit.grow();
+        fruit.provideNutrition();
+        fruit.harvest();
+        fruit.ripen();
+
+        Fruit fruit1 = new Mango();
+        fruit1.eat();
+        fruit1.grow();
+        fruit1.provideNutrition();
+        fruit1.harvest();
+        fruit1.ripen();
+
+        Mango mango = new Mango();
+        mango.eat();
+        mango.provideNutrition();
+        mango.grow();
+        mango.ripen();
+        mango.harvest();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Jewel jewel2 = new Jewel();
+        jewel2.wear();
+        jewel2.store();
+        jewel2.shine();
+        jewel2.polish();
+        jewel2.store();
+
+        Jewel jewel3 = new Gold();
+        jewel3.wear();
+        jewel3.store();
+        jewel3.shine();
+        jewel3.polish();
+        jewel3.store();
+
+        Gold gold = new Gold();
+        gold.polish();
+        gold.sell();
+        gold.shine();
+        gold.store();
+        gold.wear();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Door door = new Door();
+        door.close();
+        door.lock();
+        door.material();
+        door.open();
+        door.unlock();
+
+        Door door1 = new WoodenDoor();
+        door1.close();
+        door1.lock();
+        door1.material();
+        door1.open();
+        door1.unlock();
+
+        WoodenDoor woodenDoor = new WoodenDoor();
+        woodenDoor.close();
+        woodenDoor.lock();
+        woodenDoor.material();
+        woodenDoor.unlock();
+        woodenDoor.open();
+
+        System.out.println("---------------------------------------------------------------------");
+
+        Shampoo shampoo2 = new Shampoo();
+        shampoo2.wash();
+        shampoo2.rinse();
+        shampoo2.clean();
+        shampoo2.rub();
+        shampoo2.apply();
+
+        Shampoo shampoo3 = new Dove();
+        shampoo3.wash();
+        shampoo3.rinse();
+        shampoo3.clean();
+        shampoo3.rub();
+        shampoo3.apply();
+
+        Dove dove = new Dove();
+        dove.apply();
+        dove.rub();
+        dove.clean();
+        dove.rinse();
+        dove.wash();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+        Country country = new Country();
+        country.continent();
+        country.currency();
+        country.government();
+        country.language();
+        country.population();
+
+        Country country1 = new India();
+        country1.continent();
+        country1.currency();
+        country1.government();
+        country1.language();
+        country1.population();
+
+        India india = new India();
+        india.continent();
+        india.population();
+        india.currency();
+        india.language();
+        india.continent();
+        System.out.println("----------------------------------------------------------------------------");
+
+
+        
     }
 }
+
+
