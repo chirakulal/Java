@@ -6,7 +6,7 @@ public class Transport {
     String fuelType;
    int speed;
 
-    // Constructor
+
     public Transport(String mode, int capacity, String fuelType, int speed) {
         this.mode = mode;
         this.capacity = capacity;
