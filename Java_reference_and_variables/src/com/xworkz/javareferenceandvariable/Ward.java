@@ -7,7 +7,7 @@ public class Ward {
     String representative;
     int population;
 
-    // Constructor
+
     public Ward(String name, int wardNumber, String representative, int population) {
         this.name = name;
         this.wardNumber = wardNumber;

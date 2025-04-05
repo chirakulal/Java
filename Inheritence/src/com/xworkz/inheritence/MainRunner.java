@@ -2337,8 +2337,851 @@ public class MainRunner {
         india.continent();
         System.out.println("----------------------------------------------------------------------------");
 
+        EnergySource energySource = new EnergySource();
+        energySource.distributeEnergy();
+        energySource.generatePower();
+        energySource.storeEnergy();
+        energySource.maintain();
+        energySource.reduceCarbonFootprint();
+
+        EnergySource energySource1 = new SolarPanel();
+        energySource1.distributeEnergy();
+        energySource1.generatePower();
+        energySource1.storeEnergy();
+        energySource1.maintain();
+        energySource1.reduceCarbonFootprint();
+
+        SolarPanel solarPanel = new SolarPanel();
+        solarPanel.distributeEnergy();
+        solarPanel.generatePower();
+        solarPanel.storeEnergy();
+        solarPanel.reduceCarbonFootprint();
+        solarPanel.maintain();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Ships ships = new Ships();
+        ships.anchor();
+        ships.carryCargo();
+        ships.navigate();
+        ships.sail();
+        ships.signal();
+
+        Ships ships1 = new CruiseShip();
+        ships1.anchor();
+        ships1.carryCargo();
+        ships1.navigate();
+        ships1.sail();
+        ships1.signal();
+
+        CruiseShip cruiseShip = new CruiseShip();
+        cruiseShip.carryCargo();
+        cruiseShip.sail();
+        cruiseShip.signal();
+        cruiseShip.anchor();
+        cruiseShip.navigate();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+        ProgrammingLanguage programmingLanguage = new ProgrammingLanguage();
+        programmingLanguage.compile();
+        programmingLanguage.debug();
+        programmingLanguage.execute();
+        programmingLanguage.maintain();
+        programmingLanguage.optimize();
+
+        ProgrammingLanguage programmingLanguage1 = new Java();
+        programmingLanguage1.compile();
+        programmingLanguage1.debug();
+        programmingLanguage1.execute();
+        programmingLanguage1.maintain();
+        programmingLanguage1.optimize();
+
+        Java java = new Java();
+        java.compile();
+        java.execute();
+        java.debug();
+        java.optimize();
+        java.maintain();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+
+        Fabric fabric = new Fabric();
+        fabric.dry();
+        fabric.dye();
+        fabric.fold();
+        fabric.wash();
+        fabric.weave();
+
+        Fabric fabric1 = new Bedsheet();
+        fabric1.dry();
+        fabric1.dye();
+        fabric1.fold();
+        fabric1.wash();
+        fabric1.weave();
+
+        Bedsheet bedsheet = new Bedsheet();
+        bedsheet.dye();
+        bedsheet.fold();
+        bedsheet.weave();
+        bedsheet.dry();
+        bedsheet.wash();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+
+        GlassObject glassObject = new GlassObject();
+        glassObject.breakGlass();
+        glassObject.frame();
+        glassObject.mount();
+        glassObject.reflect();
+        glassObject.clean();
+
+        GlassObject glassObject1 = new Mirror();
+        glassObject1.breakGlass();
+        glassObject1.frame();
+        glassObject1.mount();
+        glassObject1.reflect();
+        glassObject1.clean();
+
+        Mirror mirror = new Mirror();
+        mirror.breakGlass();
+        mirror.frame();
+        mirror.reflect();
+        mirror.mount();
+        mirror.clean();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        ShowerGel showerGel = new ShowerGel();
+        showerGel.cleanse();
+        showerGel.foam();
+        showerGel.fragrance();
+        showerGel.moisturize();
+        showerGel.rinseOff();
+
+        ShowerGel showerGel1 = new Pears();
+        showerGel1.cleanse();
+        showerGel1.foam();
+        showerGel1.fragrance();
+        showerGel1.moisturize();
+        showerGel1.rinseOff();
+
+
+        Pears pears = new Pears();
+        pears.cleanse();
+        pears.fragrance();
+        pears.foam();
+        pears.moisturize();
+        pears.rinseOff();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Dishware dishware = new Dishware();
+        dishware.breakIfDropped();
+        dishware.serveFood();
+        dishware.stack();
+        dishware.store();
+        dishware.clean();
+
+
+        Dishware dishware1 = new Plate();
+        dishware1.breakIfDropped();
+        dishware1.serveFood();
+        dishware1.stack();
+        dishware1.store();
+        dishware1.clean();
+
+
+        Plate plate = new Plate();
+        plate.breakIfDropped();
+        plate.serveFood();
+        plate.clean();
+        plate.store();
+        plate.stack();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Liquid liquid = new Liquid();
+        liquid.evaporate();
+        liquid.mix();
+        liquid.lubricate();
+        liquid.pour();
+        liquid.store();
+
+        Liquid liquid1 = new Oil();
+        liquid1.evaporate();
+        liquid1.mix();
+        liquid1.lubricate();
+        liquid1.pour();
+        liquid1.store();
+
+        Oil oil = new Oil();
+        oil.mix();
+        oil.lubricate();
+        oil.evaporate();
+        oil.store();
+        oil.pour();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        Sunscreen sunscreen = new Sunscreen();
+        sunscreen.absorb();
+        sunscreen.hydrate();
+        sunscreen.preventBurns();
+        sunscreen.protectFromUV();
+        sunscreen.provideSPF();
+
+        Sunscreen sunscreen1 = new Deconstruct();
+        sunscreen1.absorb();
+        sunscreen1.hydrate();
+        sunscreen1.preventBurns();
+        sunscreen1.protectFromUV();
+        sunscreen1.provideSPF();
+
+        Deconstruct deconstruct = new Deconstruct();
+        deconstruct.absorb();
+        deconstruct.preventBurns();
+        deconstruct.hydrate();
+        deconstruct.protectFromUV();
+        deconstruct.provideSPF();
+
+        System.out.println("----------------------------------------------------------------------");
+
+        DairyProduct dairyProduct = new DairyProduct();
+        dairyProduct.consume();
+        dairyProduct.expireQuickly();
+        dairyProduct.mixWithFood();
+        dairyProduct.provideNutrients();
+        dairyProduct.storeCold();
+
+        DairyProduct dairyProduct1 = new GRB();
+        dairyProduct1.consume();
+        dairyProduct1.expireQuickly();
+        dairyProduct1.mixWithFood();
+        dairyProduct1.provideNutrients();
+        dairyProduct1.storeCold();
+
+        GRB grb = new GRB();
+        grb.mixWithFood();
+        grb.expireQuickly();
+        grb.provideNutrients();
+        grb.storeCold();
+        grb.consume();
+
+        System.out.println("---------------------------------------------------------------------");
+
+
+        FabricSoftener fabricSoftener=new FabricSoftener();
+        fabricSoftener.addFragrance();
+        fabricSoftener.softenClothes();
+        fabricSoftener.enhanceFreshness();
+        fabricSoftener.preventStatic();
+        fabricSoftener.reduceWrinkles();
+
+        FabricSoftener fabricSoftener1=new Comfort();
+        fabricSoftener1.addFragrance();
+        fabricSoftener1.softenClothes();
+        fabricSoftener1.enhanceFreshness();
+        fabricSoftener1.preventStatic();
+        fabricSoftener1.reduceWrinkles();
+
+        Comfort comfort = new Comfort();
+        comfort.addFragrance();
+        comfort.preventStatic();
+        comfort.reduceWrinkles();
+        comfort.enhanceFreshness();
+        comfort.softenClothes();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        SkincareProduct skincareProduct = new SkincareProduct();
+        skincareProduct.absorb();
+        skincareProduct.apply();
+        skincareProduct.moisturize();
+        skincareProduct.protect();
+        skincareProduct.soothe();
+
+        SkincareProduct skincareProduct1 = new AloeVeraGel();
+        skincareProduct1.absorb();
+        skincareProduct1.apply();
+        skincareProduct1.moisturize();
+        skincareProduct1.protect();
+        skincareProduct1.soothe();
+
+        AloeVeraGel aloeVeraGel = new AloeVeraGel();
+        aloeVeraGel.absorb();
+        aloeVeraGel.moisturize();
+        aloeVeraGel.protect();
+        aloeVeraGel.soothe();
+        aloeVeraGel.apply();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        InstantFood instantFood = new InstantFood();
+        instantFood.addWater();
+        instantFood.boil();
+        instantFood.openPack();
+        instantFood.serve();
+        instantFood.stir();
+
+        InstantFood instantFood1 = new Maggi();
+        instantFood1.addWater();
+        instantFood1.boil();
+        instantFood1.openPack();
+        instantFood1.serve();
+        instantFood1.stir();
+
+        Maggi maggi = new Maggi();
+        maggi.addWater();
+        maggi.openPack();
+        maggi.boil();
+        maggi.stir();
+        maggi.serve();
+
+        System.out.println("---------------------------------------------------------------------------");
+
+        Toothpaste toothpaste = new Toothpaste();
+        toothpaste.cleanTeeth();
+        toothpaste.freshenBreath();
+        toothpaste.protectGums();
+        toothpaste.removePlaque();
+        toothpaste.whitenTeeth();
+
+        Toothpaste toothpaste1 = new Colgate();
+        toothpaste1.cleanTeeth();
+        toothpaste1.freshenBreath();
+        toothpaste1.protectGums();
+        toothpaste1.removePlaque();
+        toothpaste1.whitenTeeth();
+
+
+        Colgate colgate = new Colgate();
+        colgate.cleanTeeth();
+        colgate.protectGums();
+        colgate.freshenBreath();
+        colgate.whitenTeeth();
+        colgate.removePlaque();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Detergent detergent = new Detergent();
+        detergent.cleanClothes();
+        detergent.dissolve();
+        detergent.foamUp();
+        detergent.removeStains();
+        detergent.smellGood();
+
+        Detergent detergent1 = new SurfExcel();
+        detergent1.cleanClothes();
+        detergent1.dissolve();
+        detergent1.foamUp();
+        detergent1.removeStains();
+        detergent1.smellGood();
+
+        SurfExcel surfExcel = new SurfExcel();
+        surfExcel.cleanClothes();
+        surfExcel.foamUp();
+        surfExcel.dissolve();
+        surfExcel.removeStains();
+        surfExcel.smellGood();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        EBook eBook = new EBook();
+        eBook.openBook();
+        eBook.adjustBrightness();
+        eBook.bookmarkPage();
+        eBook.searchText();
+        eBook.turnPage();
+
+        EBook eBook1 = new Kindle();
+        eBook1.openBook();
+        eBook1.adjustBrightness();
+        eBook1.bookmarkPage();
+        eBook1.searchText();
+        eBook1.turnPage();
+
+        Kindle kindle = new Kindle();
+        kindle.bookmarkPage();
+        kindle.openBook();
+        kindle.searchText();
+        kindle.adjustBrightness();
+        kindle.turnPage();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Antiseptic antiseptic = new Antiseptic();
+        antiseptic.coolBurn();
+        antiseptic.disinfect();
+        antiseptic.healFaster();
+        antiseptic.reduceInfection();
+        antiseptic.killGerms();
+
+        Antiseptic antiseptic1 = new Dettol();
+        antiseptic1.coolBurn();
+        antiseptic1.disinfect();
+        antiseptic1.healFaster();
+        antiseptic1.reduceInfection();
+        antiseptic1.killGerms();
+
+        Dettol dettol = new Dettol();
+        dettol.coolBurn();
+        dettol.healFaster();
+        dettol.disinfect();
+        dettol.reduceInfection();
+        dettol.killGerms();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Soap soap = new Soap();
+        soap.foam();
+        soap.removeStains();
+        soap.rinse();
+        soap.smellFresh();
+        soap.washClothes();
+
+        Soap soap1 = new Rin();
+        soap1.foam();
+        soap1.removeStains();
+        soap1.rinse();
+        soap1.smellFresh();
+        soap1.washClothes();
+
+        Rin rin = new Rin();
+        rin.foam();
+        rin.removeStains();
+        rin.smellFresh();
+        rin.washClothes();
+        rin.rinse();
+
+        System.out.println("-------------------------------------------------------------------");
+
+        Speaker speaker = new Speaker();
+        speaker.adjustVolume();
+        speaker.charge();
+        speaker.connectBluetooth();
+        speaker.playSound();
+        speaker.turnOff();
+
+        Speaker speaker1 = new JBL();
+        speaker1.adjustVolume();
+        speaker1.charge();
+        speaker1.connectBluetooth();
+        speaker1.playSound();
+        speaker1.turnOff();
+
+        JBL jbl = new JBL();
+        jbl.adjustVolume();
+        jbl.connectBluetooth();
+        jbl.playSound();
+        jbl.charge();
+        jbl.turnOff();
+
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        Watches watches = new Watches();
+        watches.changeStrap();
+        watches.checkBattery();
+        watches.setAlarm();
+        watches.showDate();
+        watches.showDate();
+
+        Watches watches1 = new Titan();
+        watches1.changeStrap();
+        watches1.checkBattery();
+        watches1.setAlarm();
+        watches1.showDate();
+        watches1.showDate();
+
+        Titan titan = new Titan();
+        titan.changeStrap();
+        titan.showDate();
+        titan.checkBattery();
+        titan.setAlarm();
+        titan.showTime();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        Headphones headphones = new Headphones();
+        headphones.charge();
+        headphones.decreaseVolume();
+        headphones.increaseVolume();
+        headphones.pauseMusic();
+        headphones.playMusic();
+
+        Headphones headphones1 = new Boat();
+        headphones1.charge();
+        headphones1.decreaseVolume();
+        headphones1.increaseVolume();
+        headphones1.pauseMusic();
+        headphones1.playMusic();
+
+        Boat boat = new Boat();
+        boat.increaseVolume();
+        boat.decreaseVolume();
+        boat.pauseMusic();
+        boat.playMusic();
+        boat.charge();
+
+        System.out.println("---------------------------------------------------------------------------");
+
+        Juice juice = new Juice();
+        juice.drink();
+        juice.openCap();
+        juice.pour();
+        juice.refrigerate();
+        juice.shakeWell();
+
+        Juice juice1 = new Real();
+        juice1.drink();
+        juice1.openCap();
+        juice1.pour();
+        juice1.refrigerate();
+        juice1.shakeWell();
+
+        Real real = new Real();
+        real.pour();
+        real.openCap();
+        real.refrigerate();
+        real.shakeWell();
+        real.drink();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Pen pen = new Pen();
+        pen.cap();
+        pen.inkFlow();
+        pen.refill();
+        pen.uncap();
+        pen.write();
+
+        Pen pen1 = new Reynolds();
+        pen1.cap();
+        pen1.inkFlow();
+        pen1.refill();
+        pen1.uncap();
+        pen1.write();
+
+        Reynolds reynolds =new Reynolds();
+        reynolds.cap();
+        reynolds.refill();
+        reynolds.inkFlow();
+        reynolds.uncap();
+        reynolds.write();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        Towel towel = new Towel();
+        towel.absorb();
+        towel.fold();
+        towel.hang();
+        towel.dry();
+        towel.wash();
+
+        Towel towel1 = new CottonTowel();
+        towel1.absorb();
+        towel1.fold();
+        towel1.hang();
+        towel1.dry();
+        towel1.wash();
+
+
+        CottonTowel cottonTowel = new CottonTowel();
+        cottonTowel.dry();
+        cottonTowel.fold();
+        cottonTowel.absorb();
+        cottonTowel.hang();
+        cottonTowel.wash();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        Television television = new Television();
+        television.adjustVolume();
+        television.changeChannel();
+        television.connectHdmi();
+        television.powerOn();
+        television.showGuide();
+
+        Television television1 = new LG();
+        television1.adjustVolume();
+        television1.changeChannel();
+        television1.connectHdmi();
+        television1.powerOn();
+        television1.showGuide();
+
+        LG lg = new LG();
+        lg.adjustVolume();
+        lg.connectHdmi();
+        lg.adjustVolume();
+        lg.powerOn();
+        lg.showGuide();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        WaterPurifier waterPurifier = new WaterPurifier();
+        waterPurifier.filterWater();
+        waterPurifier.storeWater();
+        waterPurifier.autoShutdown();
+        waterPurifier.indicateLevel();
+        waterPurifier.removeGerms();
+
+        WaterPurifier waterPurifier1 = new Kent();
+        waterPurifier1.filterWater();
+        waterPurifier1.storeWater();
+        waterPurifier1.autoShutdown();
+        waterPurifier1.indicateLevel();
+        waterPurifier1.removeGerms();
+
+        Kent kent =new Kent();
+        kent.autoShutdown();
+        kent.indicateLevel();
+        kent.filterWater();
+        kent.storeWater();
+        kent.removeGerms();
+
+        System.out.println("---------------------------------------------------------------------------");
+
+        Notebook notebook = new Notebook();
+        notebook.decorate();
+        notebook.label();
+        notebook.staplePages();
+        notebook.tearPage();
+        notebook.writeNotes();
+
+        Notebook notebook1 = new Classmate();
+        notebook1.decorate();
+        notebook1.label();
+        notebook1.staplePages();
+        notebook1.tearPage();
+        notebook1.writeNotes();
+
+        Classmate classmate = new Classmate();
+        classmate.staplePages();
+        classmate.label();
+        classmate.tearPage();
+        classmate.writeNotes();
+        classmate.decorate();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        Fan fan = new Fan();
+        fan.changeSpeed();
+        fan.cleanBlades();
+        fan.rotate();
+        fan.swing();
+        fan.stop();
+
+        Fan fan1 = new Crompton();
+        fan1.changeSpeed();
+        fan1.cleanBlades();
+        fan1.rotate();
+        fan1.swing();
+        fan1.stop();
+
+        Crompton crompton = new Crompton();
+        crompton.changeSpeed();
+        crompton.cleanBlades();
+        crompton.swing();
+        crompton.stop();
+        crompton.rotate();
+
+        System.out.println("------------------------------------------------------------------------");
+
+        Chocolate chocolate = new Chocolate();
+        chocolate.bite();
+        chocolate.chew();
+        chocolate.melt();
+        chocolate.share();
+        chocolate.unwrap();
+
+
+        Chocolate chocolate1 = new DairyMilk();
+        chocolate1.bite();
+        chocolate1.chew();
+        chocolate1.melt();
+        chocolate1.share();
+        chocolate1.unwrap();
+
+        DairyMilk dairyMilk = new DairyMilk();
+        dairyMilk.bite();
+        dairyMilk.melt();
+        dairyMilk.chew();
+        dairyMilk.share();
+        dairyMilk.unwrap();
+
+        System.out.println("------------------------------------------------------------------------");
+
+
+        Mouse mouse = new Mouse();
+        mouse.click();
+        mouse.drag();
+        mouse.move();
+        mouse.doubleClick();
+        mouse.scroll();
+
+        Mouse mouse1 = new WirelessMouse();
+        mouse1.click();
+        mouse1.drag();
+        mouse1.move();
+        mouse1.doubleClick();
+        mouse1.scroll();
+
+        WirelessMouse wirelessMouse = new WirelessMouse();
+        wirelessMouse.click();
+        wirelessMouse.drag();
+        wirelessMouse.doubleClick();
+        wirelessMouse.move();
+        wirelessMouse.scroll();
+
+        System.out.println("-------------------------------------------------------------------------");
+
+        Bucket bucket = new Bucket();
+        bucket.carry();
+        bucket.empty();
+        bucket.clean();
+        bucket.fillWater();
+        bucket.store();
+
+        Bucket bucket1 = new PlasticBucket();
+        bucket1.carry();
+        bucket1.empty();
+        bucket1.clean();
+        bucket1.fillWater();
+        bucket1.store();
+
+        PlasticBucket plasticBucket = new PlasticBucket();
+        plasticBucket.carry();
+        plasticBucket.fillWater();
+        plasticBucket.empty();
+        plasticBucket.store();
+        plasticBucket.clean();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        Pillow pillow = new Pillow();
+        pillow.adjust();
+        pillow.cover();
+        pillow.fluff();
+        pillow.restOn();
+        pillow.restOn();
+
+        Pillow pillow1 = new SoftPillow();
+        pillow1.adjust();
+        pillow1.cover();
+        pillow1.fluff();
+        pillow1.restOn();
+        pillow1.restOn();
+
+        SoftPillow softPillow = new SoftPillow();
+        softPillow.adjust();
+        softPillow.fluff();
+        softPillow.cover();
+        softPillow.restOn();
+        softPillow.wash();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Curtain curtain = new Curtain();
+        curtain.close();
+        curtain.hang();
+        curtain.iron();
+        curtain.wash();
+        curtain.drawOpen();
+
+        Curtain curtain1 = new WindowCurtain();
+        curtain1.close();
+        curtain1.hang();
+        curtain1.iron();
+        curtain1.wash();
+        curtain1.drawOpen();
+
+        WindowCurtain windowCurtain = new WindowCurtain();
+        windowCurtain.hang();
+        windowCurtain.drawOpen();
+        windowCurtain.close();
+        windowCurtain.iron();
+        windowCurtain.wash();
+
+        System.out.println("--------------------------------------------------------------------------");
+
+        Comb comb = new Comb();
+        comb.clean();
+        comb.grip();
+        comb.store();
+        comb.untangle();
+        comb.pack();
+
+        Comb comb1 = new HairComb();
+        comb1.clean();
+        comb1.grip();
+        comb1.store();
+        comb1.untangle();
+        comb1.pack();
+
+        HairComb hairComb = new HairComb();
+        hairComb.pack();
+        hairComb.grip();
+        hairComb.untangle();
+        hairComb.store();
+        hairComb.clean();
+
+        System.out.println("----------------------------------------------------------------------");
+
+        Mug mug = new Mug();
+        mug.heat();
+        mug.pour();
+        mug.sip();
+        mug.refill();
+        mug.clean();
+
+        Mug mug1 = new CoffeeMug();
+        mug1.heat();
+        mug1.pour();
+        mug1.sip();
+        mug1.refill();
+        mug1.clean();
+
+        CoffeeMug coffeeMug = new CoffeeMug();
+        coffeeMug.sip();
+        coffeeMug.refill();
+        coffeeMug.pour();
+        coffeeMug.heat();
+        coffeeMug.clean();
+
+        System.out.println("-----------------------------------------------------------------------");
+
+        Oven oven = new Oven();
+        oven.defrost();
+        oven.bake();
+        oven.grill();
+        oven.turnOff();
+        oven.preheat();
+
+        Oven oven1 = new MicrowaveOven();
+        oven1.defrost();
+        oven1.bake();
+        oven1.grill();
+        oven1.turnOff();
+        oven1.preheat();
+
+
+        MicrowaveOven microwaveOven = new MicrowaveOven();
+        microwaveOven.bake();
+        microwaveOven.defrost();
+        microwaveOven.grill();
+        microwaveOven.preheat();
+        microwaveOven.turnOff();
+
+        System.out.println("---------------------------------------------------------------------------");
 
         
+
     }
 }
 
