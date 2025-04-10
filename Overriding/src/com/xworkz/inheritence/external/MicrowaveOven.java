@@ -27,4 +27,7 @@ public class MicrowaveOven extends Oven {
     public void turnOff() {
         System.out.println("Running turnOff in MicrowaveOven");
     }
+    public void turnOn(){
+        System.out.println("Running turnOn in MicrowaveOven");
+    }
 }

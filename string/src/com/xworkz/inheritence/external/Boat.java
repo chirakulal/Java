@@ -44,6 +44,7 @@ public class Boat extends Headphones {
     public String toString() {
         return
                 "model='" + model + '\'' +
-                ", batteryLife=" + batteryLife +
-                ", isWireless=" + isWireless ;
+                        ", batteryLife=" + batteryLife +
+                        ", isWireless=" + isWireless;
+    }
 }

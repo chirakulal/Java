@@ -8,7 +8,7 @@ public class Cricket {
        this.ticket =ticket;
        System.out.println("the ticket in cricket is " + this.ticket);
    }
-     void watch( Ticket ticket){
+     void watch( ){
 
          System.out.println("running watch in Cricket class");
          if(ticket!=null){
@@ -16,7 +16,7 @@ public class Cricket {
          }
          else System.out.println("reference is pointing to null");
      }
-   void profit(Ticket ticket){
+   void profit(){
        System.out.println("running profit in Cricket class");
        if(ticket!=null){
            ticket.sell();
