@@ -23,4 +23,4 @@ public class WashingMachine {
         return 99;
     }
 }
-}
+
