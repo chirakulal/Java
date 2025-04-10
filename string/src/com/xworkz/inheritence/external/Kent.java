@@ -39,6 +39,7 @@ public class Kent extends WaterPurifier {
     public String toString() {
         return
                 "modelName='" + modelName + '\'' +
-                ", capacity=" + capacity +
-                ", hasROTechnology=" + hasROTechnology ;
+                        ", capacity=" + capacity +
+                        ", hasROTechnology=" + hasROTechnology;
+    }
 }
