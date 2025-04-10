@@ -872,6 +872,7 @@ public class MainRunner {
         System.out.println(System.identityHashCode(washingMachine));
         System.out.println("----------------------------------------------------------------------------");
 
+        
         AeroPurifier purifier = new AeroPurifier("APX-500", 450, true);
         System.out.println("AeroPurifier - " + purifier.toString());
         System.out.println(purifier.hashCode());
