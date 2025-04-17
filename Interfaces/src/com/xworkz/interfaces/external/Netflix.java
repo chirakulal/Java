@@ -18,4 +18,10 @@ public class Netflix implements Streaming {
     public void stopVideo() {
         System.out.println("Running stopVideo in Netflix");
     }
+
+    @Override
+    public void react() {
+        System.out.println("Running deleteFiles in FileManager");
+
+    }
 }

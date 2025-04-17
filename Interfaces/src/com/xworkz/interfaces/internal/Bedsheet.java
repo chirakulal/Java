@@ -6,4 +6,8 @@ public interface Bedsheet {
     void foldSheet();
     void washSheet();
 
+    default void cleanSheet(){
+        System.out.println("running cleanSheet in BedSheet");
+    }
+
 }

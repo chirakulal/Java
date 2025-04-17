@@ -6,4 +6,8 @@ public interface Gaming {
     void pauseGame();
     void endGame();
 
+    default void nextGame(){
+        System.out.println("Running nectGame in Gamming");
+    }
+
 }

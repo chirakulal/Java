@@ -19,4 +19,9 @@ public class Playstation implements GamingConsole {
         System.out.println("Running endGame in Playstation");
     }
 
+    @Override
+    public void reset() {
+        System.out.println("Running reset in Gamingconsole");
+
+    }
 }

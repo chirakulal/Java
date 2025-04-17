@@ -20,4 +20,9 @@ public class OfficePrinter implements Printer {
         System.out.println("Running scan in OfficePrinter");
 
     }
+
+    @Override
+    public void edit() {
+        System.out.println("running edit in OfficePrinter");
+    }
 }

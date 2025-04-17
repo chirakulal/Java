@@ -6,4 +6,8 @@ public interface Pillow {
     void coverPillow();
     void washPillow();
 
+    default void HelpsTosleep(){
+        System.out.println("Running HelpsTosleep in Pillow");
+    }
+
 }

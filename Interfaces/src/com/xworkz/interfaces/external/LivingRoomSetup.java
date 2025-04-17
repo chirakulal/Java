@@ -20,6 +20,7 @@ public class LivingRoomSetup implements Fan, Light {
         System.out.println("Running method in MourningRoutine");
     }
 
+
     @Override
     public void adjustSpeed() {
         System.out.println("Running method in MourningRoutine");

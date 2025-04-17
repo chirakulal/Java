@@ -18,4 +18,10 @@ public class Telegram implements ChatApp {
     public void deleteChat() {
         System.out.println("Running deleteChat in Telegram");
     }
+
+    @Override
+    public void sendChat() {
+        System.out.println("Running sendChat in Telegram");
+
+    }
 }

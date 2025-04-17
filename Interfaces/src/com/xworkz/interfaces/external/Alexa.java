@@ -18,4 +18,10 @@ public class Alexa implements SmartHome {
     public void lockDoors() {
         System.out.println("Running lockDoors in Alexa");
     }
+
+    @Override
+    public void onLight() {
+        System.out.println("Running onLight in SmartHome");
+
+    }
 }

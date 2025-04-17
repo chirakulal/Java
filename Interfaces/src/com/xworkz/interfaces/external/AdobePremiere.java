@@ -18,4 +18,9 @@ public class AdobePremiere implements VideoEditing {
     public void exportVideo() {
         System.out.println("Running exportVideo in AdobePremiere");
     }
+
+    @Override
+    public void edit() {
+        System.out.println("running edit in AdobePremiere");
+    }
 }

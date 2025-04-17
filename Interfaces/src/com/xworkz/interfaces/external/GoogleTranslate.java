@@ -17,4 +17,10 @@ public class GoogleTranslate  implements LanguageTranslator {
     public void detectLanguage() {
         System.out.println("Running detectLanguage in GoogleTranslate");
     }
+
+    @Override
+    public void translateToUrdu() {
+        System.out.println("Running translateToUrdu in GoogleTranslate");
+
+    }
 }

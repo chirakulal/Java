@@ -20,4 +20,9 @@ public class Inshorts implements NewsApp {
         System.out.println("Running bookmarkNews in Inshorts");
     }
 
+    @Override
+    public void showArticle() {
+        System.out.println("Running show Article in showArticle");
+
+    }
 }

@@ -18,4 +18,10 @@ public class AudioPlayer implements MediaPlayer {
     public void stop() {
         System.out.println("Running stop in AudioPlayer");
     }
+
+    @Override
+    public void speed() {
+        System.out.println("Running speed in AudioPlayer");
+
+    }
 }

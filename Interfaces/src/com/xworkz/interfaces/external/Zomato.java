@@ -4,6 +4,12 @@ import com.xworkz.interfaces.internal.FoodDelivery;
 
 public class Zomato implements FoodDelivery {
 
+
+    @Override
+    public void takeOrder() {
+        System.out.println("Running takeOrder in Zomato");
+    }
+
     @Override
     public void cancelOrder() {
         System.out.println("Running cancelOrder in Zomato");

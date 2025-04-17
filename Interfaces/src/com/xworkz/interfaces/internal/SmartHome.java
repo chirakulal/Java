@@ -6,4 +6,8 @@ public interface SmartHome {
     void adjustThermostat();
     void lockDoors();
 
+    default void onLight(){
+        System.out.println("Running onLight in SmartHome");
+    }
+
 }

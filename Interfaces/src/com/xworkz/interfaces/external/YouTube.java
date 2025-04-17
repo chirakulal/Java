@@ -18,4 +18,10 @@ public class YouTube implements VideoPlatform {
     public void commentVideo() {
         System.out.println("Running commentVideo in YouTube");
     }
+
+    @Override
+    public void delete() {
+        System.out.println("Running delete in Youtube");
+
+    }
 }

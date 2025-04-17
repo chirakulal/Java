@@ -18,4 +18,10 @@ public class Coursera implements EducationPlatform {
     public void completeAssignment() {
         System.out.println("Running completeAssignment in Coursera");
     }
+
+    @Override
+    public void receiveCertificate() {
+        System.out.println("Running reciveCertificate in Coursera");
+
+    }
 }

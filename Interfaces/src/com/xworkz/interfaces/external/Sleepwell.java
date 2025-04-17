@@ -18,4 +18,10 @@ public class Sleepwell implements Pillow {
     public void washPillow() {
         System.out.println("Running washPillow in Sleepwell");
     }
+
+    @Override
+    public void HelpsTosleep() {
+        System.out.println("Running HelpsTosleep in Sleepwell");
+
+    }
 }

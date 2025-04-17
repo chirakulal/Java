@@ -19,4 +19,9 @@ public class SonyTV implements Television {
         System.out.println("Running turnOff in SonyTV");
     }
 
+    @Override
+    public void volume() {
+        System.out.println("Running cancel in Delivery");
+
+    }
 }

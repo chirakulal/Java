@@ -18,4 +18,9 @@ public class MyFitnessPal implements FitnessApp {
     public void setGoal() {
         System.out.println("Running setGoal in MyFitnessPal");
     }
+
+    @Override
+    public void dietChart() {
+        System.out.println("Running dietChart in FitnessApp");
+    }
 }

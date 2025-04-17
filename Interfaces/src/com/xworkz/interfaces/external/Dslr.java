@@ -18,4 +18,10 @@ public class Dslr implements Camera {
     public void takePhoto() {
         System.out.println("Running takePhoto in Dslr");
     }
+
+    @Override
+    public void capture() {
+        System.out.println("Running capture in Dslr");
+
+    }
 }

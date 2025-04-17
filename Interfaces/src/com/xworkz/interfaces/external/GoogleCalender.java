@@ -19,4 +19,8 @@ public class GoogleCalender implements CalendarApp {
         System.out.println("Running viewSchedule in GoogleCalendar");
     }
 
+    @Override
+    public void event() {
+        System.out.println("Running event in Calender");
+    }
 }

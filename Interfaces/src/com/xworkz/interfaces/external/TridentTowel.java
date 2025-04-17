@@ -18,4 +18,10 @@ public class TridentTowel implements Towel {
     public void washTowel() {
         System.out.println("Running washTowel in TridentTowel");
     }
+
+    @Override
+    public void cleanTowel() {
+        System.out.println("Running cleanTowel in cleantowel");
+
+    }
 }

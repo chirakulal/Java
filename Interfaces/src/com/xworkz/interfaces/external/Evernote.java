@@ -18,4 +18,9 @@ public class Evernote implements NoteTaking {
     public void highlightText() {
         System.out.println("Running highlightText in Evernote");
     }
+
+    @Override
+    public void editNoter() {
+        System.out.println("Running editNoter in Evernote");
+    }
 }

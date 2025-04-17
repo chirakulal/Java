@@ -16,4 +16,10 @@ public class SmartWatch implements SmartDevice {
     public void update() {
         System.out.println("Running update in SmartWatch");
     }
+
+    @Override
+    public void themeChange() {
+        System.out.println("Running themeChnage in SmartDevice");
+
+    }
 }

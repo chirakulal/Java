@@ -18,4 +18,10 @@ public class Waze implements MapApp {
     public void saveLocation() {
         System.out.println("Running saveLocation in Waze");
     }
+
+    @Override
+    public void search() {
+        System.out.println("Running search in MapApp");
+
+    }
 }

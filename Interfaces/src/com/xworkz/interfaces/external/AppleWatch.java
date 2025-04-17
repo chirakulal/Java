@@ -18,4 +18,11 @@ public class AppleWatch implements SmartWatches {
     public void monitorHeartRate() {
         System.out.println("Running monitorHeartRate in AppleWatch");
     }
+
+    @Override
+    public void call() {
+        System.out.println("Running call in SmartWatches");
+
+    }
+
 }

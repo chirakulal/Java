@@ -18,4 +18,9 @@ public class ClinicPlus implements Shampoo {
     public void dryHair() {
         System.out.println("Running dryHair in ClinicPlus");
     }
+
+    @Override
+    public void smoothShampoo() {
+        System.out.println("Running smoothShampoo in Shampoo");
+    }
 }

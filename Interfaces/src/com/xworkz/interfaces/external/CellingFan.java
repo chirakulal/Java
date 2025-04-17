@@ -18,4 +18,10 @@ public class CellingFan implements Fan {
     public void turnOn() {
         System.out.println("Running tunOn in CeelingFan");
     }
+
+    @Override
+    public void capacitor() {
+        System.out.println("Running capacitor in CellingFan");
+
+    }
 }

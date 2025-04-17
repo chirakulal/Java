@@ -28,6 +28,7 @@ public class BAthroomEssentials implements Soap, Shampoo {
 
     }
 
+
     @Override
     public void rinseSoap() {
         System.out.println("Runnning method in applyShampoo");

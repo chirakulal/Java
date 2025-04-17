@@ -18,4 +18,9 @@ public class DoveSoap implements Soap {
     public void drySkin() {
         System.out.println("Running drySkin in DoveSoap");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("running clean in DoveSoap");
+    }
 }

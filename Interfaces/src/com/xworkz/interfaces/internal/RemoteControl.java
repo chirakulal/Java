@@ -6,4 +6,7 @@ public interface RemoteControl {
     void powerOff();
     void changeChannel();
 
+    default void increaseVolume(){
+        System.out.println("Running increaseVolume in REmoteControl");
+    }
 }

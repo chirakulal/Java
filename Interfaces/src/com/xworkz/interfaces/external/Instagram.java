@@ -20,4 +20,10 @@ public class Instagram implements SocialMedia {
         System.out.println("Running like in Instagram");
 
     }
+
+    @Override
+    public void story() {
+        System.out.println("Running story in Instagram");
+
+    }
 }

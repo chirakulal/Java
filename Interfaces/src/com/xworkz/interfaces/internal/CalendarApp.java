@@ -7,5 +7,10 @@ public interface CalendarApp {
     void deleteEvent();
     void viewSchedule();
 
+    default void event(){
+        System.out.println("running CalenderApp");
+    }
+
+
 
 }

@@ -6,5 +6,8 @@ public interface Alarm {
     void stopAlarm();
     void snooze();
 
+    default void timer(){
+        System.out.println("Running timer in Alarm");
+    }
 
 }

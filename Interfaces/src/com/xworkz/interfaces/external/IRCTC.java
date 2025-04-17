@@ -19,4 +19,10 @@ public class IRCTC implements TicketBooking {
     public void cancelTicket() {
         System.out.println("Running cancelTicket in IRCTC");
     }
+
+    @Override
+    public void booking() {
+        System.out.println("Running booking in IRcTC");
+
+    }
 }

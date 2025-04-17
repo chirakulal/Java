@@ -5,4 +5,8 @@ public interface Thermostat {
     void setTemperature();
     void increaseTemperature();
     void decreaseTemperature();
+
+    default void checkTemperature(){
+        System.out.println("running checkTemperature in Thermostat");
+    }
 }

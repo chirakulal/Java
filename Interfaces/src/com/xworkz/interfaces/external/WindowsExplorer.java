@@ -19,4 +19,9 @@ public class WindowsExplorer implements FileManager {
         System.out.println("Running closeFile in WindowsExplorer");
     }
 
+    @Override
+    public void deleteFiles() {
+        System.out.println("Running deleteFiles in FileManager");
+
+    }
 }

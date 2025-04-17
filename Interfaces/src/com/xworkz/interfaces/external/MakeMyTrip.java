@@ -16,4 +16,10 @@ public class MakeMyTrip implements TravelBooking {
     public void checkStatus() {
         System.out.println("Running checkStatus in MakeMyTrip");
     }
+
+    @Override
+    public void TRavel() {
+        System.out.println("Running travel in MakeMyTrip");
+
+    }
 }

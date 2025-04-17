@@ -19,4 +19,8 @@ public class Spotify implements MusicApp {
         System.out.println("Running downloadSong in Spotify");
     }
 
+    @Override
+    public void addToLibrary() {
+        System.out.println("Running addToLibrary in Spotify");
+    }
 }

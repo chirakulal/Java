@@ -19,4 +19,10 @@ public class SaintGobain implements Mirror {
     public void adjustAngle() {
         System.out.println("Running adjustAngle in SaintGobain");
     }
+
+    @Override
+    public void keep() {
+        System.out.println("running keep in Mirror");
+
+    }
 }

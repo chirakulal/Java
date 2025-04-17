@@ -19,4 +19,8 @@ public class PhilipsLight implements Light {
         System.out.println("Running adjustBrightness in PhilipsLight");
     }
 
+    @Override
+    public void capacity() {
+        System.out.println("Running capacity in PhilipsLight");
+    }
 }

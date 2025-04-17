@@ -18,4 +18,10 @@ public class Nescafe implements Coffee {
     public void addSugar() {
         System.out.println("Running addSugar in Nescafe");
     }
+
+    @Override
+    public void serve() {
+        System.out.println("Running serve in Nescafe");
+
+    }
 }

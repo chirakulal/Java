@@ -18,4 +18,10 @@ public class Chrome implements Browser {
     public void refreshPage() {
         System.out.println("Running refreshPage in Browser");
     }
+
+    @Override
+    public void search() {
+        System.out.println("Running search in Chrome");
+
+    }
 }

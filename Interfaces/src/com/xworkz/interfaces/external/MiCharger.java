@@ -19,4 +19,9 @@ public class MiCharger implements Charger {
         System.out.println("Running unplug in MiCharger");
     }
 
+    @Override
+    public void KeepitSafe() {
+        System.out.println("running keepitSafe in Charger");
+
+    }
 }

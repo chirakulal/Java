@@ -20,4 +20,9 @@ public class Practo implements HealthCareApp {
         System.out.println("Running contactDoctor in Practo");
     }
 
+    @Override
+    public void check() {
+        System.out.println("Running check in Practo");
+
+    }
 }

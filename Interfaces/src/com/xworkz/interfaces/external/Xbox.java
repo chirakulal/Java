@@ -18,4 +18,10 @@ public class Xbox implements Gaming {
     public void endGame() {
         System.out.println("Running endGame in Xbox");
     }
+
+    @Override
+    public void nextGame() {
+        System.out.println("Running nectGame in Gamming");
+
+    }
 }
