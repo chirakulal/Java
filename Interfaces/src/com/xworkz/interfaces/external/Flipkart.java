@@ -19,4 +19,10 @@ public class Flipkart implements Ecommerce {
     public void checkout() {
         System.out.println("Running checkout in Flipkart");
     }
+
+    @Override
+    public void deleteCart() {
+        System.out.println("Running deleteCart in Flipkart");
+
+    }
 }

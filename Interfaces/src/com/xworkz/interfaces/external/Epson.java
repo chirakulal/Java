@@ -19,4 +19,8 @@ public class Epson implements ScannerDevice {
         System.out.println("Running saveDocument in Epson");
     }
 
+    @Override
+    public void send() {
+        System.out.println("Running send in ScannerDevice");
+    }
 }

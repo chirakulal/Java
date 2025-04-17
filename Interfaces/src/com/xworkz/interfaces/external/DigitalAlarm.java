@@ -18,4 +18,10 @@ public class DigitalAlarm implements Alarm {
     public void stopAlarm() {
         System.out.println("Running topAlarm in DigitalAlarm");
     }
+
+    @Override
+    public void timer() {
+        System.out.println("Running timer in Alarm");
+
+    }
 }

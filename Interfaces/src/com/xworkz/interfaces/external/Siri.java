@@ -18,4 +18,10 @@ public class Siri implements VoiceAssistant {
     public void giveResponse() {
         System.out.println("Running giveResponse in Siri");
     }
+
+    @Override
+    public void askQuestions() {
+        System.out.println("Running ackQuestions in Voiceassistant");
+
+    }
 }

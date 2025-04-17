@@ -17,4 +17,10 @@ public class WildcraftBag implements Bag {
     public void carryBag() {
         System.out.println("Running carryBag in WildcraftBag");
     }
+
+    @Override
+    public void checkBag() {
+        System.out.println("Running checkBag in WildCraftBag");
+
+    }
 }

@@ -18,4 +18,10 @@ public class Snapseed  implements PhotoEditor {
     public void save() {
         System.out.println("Running save in Snapseed");
     }
+
+    @Override
+    public void delete() {
+        System.out.println("Running delete in Snaspeed");
+
+    }
 }

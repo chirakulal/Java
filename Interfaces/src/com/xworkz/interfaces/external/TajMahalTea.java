@@ -18,4 +18,10 @@ public class TajMahalTea implements Tea {
     public void serveTea() {
         System.out.println("Running serveTea in TajMahalTea");
     }
+
+    @Override
+    public void drinkTea() {
+        System.out.println("Running drinkTea in TalMahal");
+
+    }
 }

@@ -18,4 +18,10 @@ public class OralB implements Toothbrush {
     public void rinseMouth() {
         System.out.println("Running rinseMouth in OralB");
     }
+
+    @Override
+    public void flavour() {
+        System.out.println("Running flavour in OralB");
+
+    }
 }

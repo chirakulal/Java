@@ -18,4 +18,10 @@ public class AmazonDelivery implements Delivery {
     public void returnItem() {
         System.out.println("Running returnItem in AmazonDelivery");
     }
+
+    @Override
+    public void cancel() {
+        System.out.println("Running cancel in Delivery");
+
+    }
 }

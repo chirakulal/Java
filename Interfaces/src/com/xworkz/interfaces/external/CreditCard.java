@@ -18,4 +18,10 @@ public class CreditCard implements Payment {
     public void checkBalance() {
         System.out.println("Running checkBalance in Payment");
     }
+
+    @Override
+    public void deposit() {
+        System.out.println("running deposit in CreditCard");
+
+    }
 }

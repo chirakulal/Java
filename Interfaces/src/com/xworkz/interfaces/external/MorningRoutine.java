@@ -30,6 +30,7 @@ public class MorningRoutine implements Toothbrush, Mirror {
         System.out.println("Running method in brushTeeth");
     }
 
+
     @Override
     public void lookInto() {
         System.out.println("Running method in lookInto");

@@ -20,4 +20,10 @@ public class ScientificCalculator implements Calculator {
         System.out.println("Running subtract in ScientificCalculator");
 
     }
+
+    @Override
+    public void division() {
+        System.out.println("Running division in ScientificCalculator");
+
+    }
 }

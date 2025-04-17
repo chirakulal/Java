@@ -18,4 +18,10 @@ public class Duolingo implements LanguageLearning {
     public void checkProgress() {
         System.out.println("Running checkProgress in Duolingo");
     }
+
+    @Override
+    public void takeTest() {
+        System.out.println("Running taketest in Duolinga");
+
+    }
 }

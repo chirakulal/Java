@@ -19,4 +19,11 @@ public class BombayDyeing implements Bedsheet {
     public void washSheet() {
         System.out.println("Running washSheet in BombayDyeing");
     }
+
+    @Override
+    public void cleanSheet() {
+        System.out.println("Running checkBag in Bag");
+
+    }
+
 }

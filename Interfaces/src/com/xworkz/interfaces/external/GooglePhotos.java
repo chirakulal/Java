@@ -18,4 +18,10 @@ public class GooglePhotos implements PhotoGallery {
     public void editPhotos() {
         System.out.println("Running editPhotos in GooglePhotos");
     }
+
+    @Override
+    public void restore() {
+        System.out.println("Running restore in PhotoGallery");
+
+    }
 }

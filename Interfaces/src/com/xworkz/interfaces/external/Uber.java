@@ -18,4 +18,13 @@ public class Uber implements RideHailing {
     public void rateDriver() {
         System.out.println("Running rateDriver in Uber");
     }
+
+    @Override
+    public void travel() {
+
+        System.out.println("Running in travel in RideHailing");
+
+
+
+}
 }

@@ -20,4 +20,10 @@ public class GoogleMaps implements NavigationSystem {
         System.out.println("Running setDestination in GoogleMaps");
 
     }
+
+    @Override
+    public void setSource() {
+        System.out.println("Running setSource in GoogleMaps");
+
+    }
 }

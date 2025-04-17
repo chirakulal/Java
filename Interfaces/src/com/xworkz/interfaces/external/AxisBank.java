@@ -18,4 +18,10 @@ public class AxisBank implements BankingApp {
     public void checkBalance() {
         System.out.println("Running checkBalance in AxisBank");
     }
+
+    @Override
+    public void deposit() {
+        System.out.println("Running deposit in AxisBank");
+
+    }
 }

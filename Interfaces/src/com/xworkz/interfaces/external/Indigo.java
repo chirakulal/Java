@@ -18,4 +18,10 @@ public class Indigo implements FlightBooking {
     public void cancelFlight() {
         System.out.println("Running cancelFlight in Indigo");
     }
+
+    @Override
+    public void checkStatus() {
+        System.out.println("Running checkStatus in FlightBooking");
+
+    }
 }

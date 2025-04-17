@@ -18,4 +18,9 @@ public class Todoist implements ReminderApp {
     public void cancelReminder() {
         System.out.println("Running cancelReminder in Todoist");
     }
+
+    @Override
+    public void deleteReminder() {
+        System.out.println("Running deleteReminder in TOdolist");
+    }
 }

@@ -18,4 +18,9 @@ public class Kindle implements EBookReader {
     public void closeBook() {
         System.out.println("Running closeBook in EBookReader");
     }
+
+    @Override
+    public void read() {
+        System.out.println("Running read in EBookReader");
+    }
 }

@@ -18,4 +18,9 @@ public class Tesla implements CarControl {
     public void stopCar() {
         System.out.println("Running stopCar in Tesla");
     }
+
+    @Override
+    public void manageSpeed() {
+        System.out.println("Running manageSpeed in CarControl");
+    }
 }

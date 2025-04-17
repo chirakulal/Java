@@ -19,4 +19,10 @@ public class LGMachine implements WashingMachine {
     public void wash() {
         System.out.println("Running wash in LGMachine");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("Running clean in LGMachine");
+
+    }
 }

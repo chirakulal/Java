@@ -10,6 +10,7 @@ public class CollegeBag implements NoteTaking, Bottle {
         System.out.println("Running method in CollegeBag");
     }
 
+
     @Override
     public void fillWater() {
         System.out.println("Running fillWater in Collegebag");

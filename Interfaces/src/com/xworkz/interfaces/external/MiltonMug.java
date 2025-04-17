@@ -18,4 +18,10 @@ public class MiltonMug implements Mug {
     public void cleanMug() {
         System.out.println("Running cleanMug in MiltonMug");
     }
+
+    @Override
+    public void storeMug() {
+        System.out.println("Running storeMug in miltonMug");
+
+    }
 }

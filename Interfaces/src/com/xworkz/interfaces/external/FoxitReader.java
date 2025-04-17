@@ -18,4 +18,11 @@ public class FoxitReader implements PDFEditor {
     public void savePDF() {
         System.out.println("Running savePDF in FoxitReader");
     }
+
+    @Override
+    public void sendPDF() {
+        System.out.println("Running sendPDF in Foxit");
+
+    }
+
 }

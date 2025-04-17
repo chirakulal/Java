@@ -18,4 +18,10 @@ public class WhatsApp implements Messaging {
     public void sendMessage() {
         System.out.println("Running sendMessage in Whatsapp");
     }
+
+    @Override
+    public void draft() {
+        System.out.println("Running increaseVolume in REmoteControl");
+
+    }
 }

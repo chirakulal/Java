@@ -6,4 +6,7 @@ public interface Payment {
     void refund();
     void checkBalance();
 
+    default void deposit(){
+        System.out.println("running deposit in pay");
+    }
 }

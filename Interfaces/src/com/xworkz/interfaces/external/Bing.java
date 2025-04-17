@@ -18,4 +18,9 @@ public class Bing implements SearchEngine {
     public void filterResults() {
         System.out.println("Running filterResults in Bing");
     }
+
+    @Override
+    public void result() {
+        System.out.println("Running result in Bing");
+    }
 }

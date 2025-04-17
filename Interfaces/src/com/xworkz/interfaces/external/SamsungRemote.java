@@ -18,4 +18,10 @@ public class SamsungRemote implements Remote {
     public void turnOffTV() {
         System.out.println("Running turnOffTV in SamsungRemote");
     }
+
+    @Override
+    public void increaseVolume() {
+        System.out.println("running increaseVolume in SumsungRemote");
+
+    }
 }

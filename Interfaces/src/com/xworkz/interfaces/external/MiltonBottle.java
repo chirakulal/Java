@@ -18,4 +18,10 @@ public class MiltonBottle implements Bottle {
     public void washBottle() {
         System.out.println("Running washBottle in MiltonBottle");
     }
+
+    @Override
+    public void cleanBottel() {
+        System.out.println("Running cleanBottel in Bottel");
+
+    }
 }

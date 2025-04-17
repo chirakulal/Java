@@ -18,4 +18,10 @@ public class HackerRank implements CodingPlatform {
     public void runTestCases() {
         System.out.println("Running runTestCases in HackerRank");
     }
+
+    @Override
+    public void compile() {
+        System.out.println("Running compile in HackerRank");
+
+    }
 }

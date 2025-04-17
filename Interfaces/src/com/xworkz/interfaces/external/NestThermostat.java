@@ -4,6 +4,7 @@ import com.xworkz.interfaces.internal.Thermostat;
 
 public class NestThermostat implements Thermostat {
 
+
     @Override
     public void setTemperature() {
         System.out.println("Running setTemperature in NestThermostat");
@@ -17,5 +18,12 @@ public class NestThermostat implements Thermostat {
     @Override
     public void increaseTemperature() {
         System.out.println("Running increaseTemperature in NestThermostat");
+    }
+
+    @Override
+    public void checkTemperature() {
+
+            System.out.println("running checkTemperature in Thermostat");
+
     }
 }

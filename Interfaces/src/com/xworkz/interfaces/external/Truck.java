@@ -18,4 +18,10 @@ public class Truck implements Vehicle {
     public void stopEngine() {
         System.out.println("Running stopEngine in Truck");
     }
+
+    @Override
+    public void run() {
+        System.out.println("Running run in Vehicle");
+
+    }
 }

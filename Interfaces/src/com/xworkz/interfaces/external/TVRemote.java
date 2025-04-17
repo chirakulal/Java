@@ -18,4 +18,11 @@ public class TVRemote implements RemoteControl {
     public void powerOn() {
         System.out.println("Running poweOn in TVRemote");
     }
+
+    @Override
+    public void increaseVolume() {
+        System.out.println("Running increaseVolume in TVRemote");
+
+    }
+
 }

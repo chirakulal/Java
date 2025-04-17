@@ -19,4 +19,10 @@ public class Dell implements Laptop {
         System.out.println("Running shutdown in Dell");
     }
 
+    @Override
+    public void restart() {
+        System.out.println("Running story in SocialMedia");
+
+    }
+
 }

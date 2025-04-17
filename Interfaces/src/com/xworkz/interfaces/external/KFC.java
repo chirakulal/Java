@@ -18,4 +18,10 @@ public class KFC implements Restaurant {
     public void generateBill() {
         System.out.println("Running generateBill in KFC");
     }
+
+    @Override
+    public void deliver() {
+        System.out.println("Running deluver in KFC");
+
+    }
 }

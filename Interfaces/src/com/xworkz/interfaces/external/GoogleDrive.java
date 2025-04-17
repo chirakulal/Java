@@ -18,4 +18,9 @@ public class GoogleDrive implements CloudStorage {
     public void uploadFile() {
         System.out.println("Running uploadFile inGoogleDrive");
     }
+
+    @Override
+    public void restoreFile() {
+        System.out.println("running restoreFile in GoogleDrive");
+    }
 }

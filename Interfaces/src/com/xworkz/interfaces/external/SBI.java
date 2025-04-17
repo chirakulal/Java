@@ -18,4 +18,11 @@ public class SBI implements Bank {
     public void withdraw() {
         System.out.println("Running withdraw in SBI");
     }
+
+    @Override
+    public void savings() {
+
+            System.out.println("Running saving in SBI");
+
+    }
 }

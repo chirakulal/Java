@@ -18,4 +18,10 @@ public class HomeCenterCurtain implements Curtain {
     public void cleanCurtain() {
         System.out.println("Running cleanCurtain in HomeCenterCurtain");
     }
+
+    @Override
+    public void throwCurtain() {
+        System.out.println("Running throwCurtain in HomeCenterCurtain");
+
+    }
 }
