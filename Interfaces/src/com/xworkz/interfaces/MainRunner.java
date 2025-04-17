@@ -353,6 +353,60 @@ public class MainRunner {
         towel.dryBody();
         towel.wipeFace();
 
+        Bottle bottle1 = new TravelKit();
+        bottle1.fillWater();
+        bottle1.washBottle();
+        bottle1.drinkWater();
+
+        Towel towel1 = new TravelKit();
+        towel1.wipeFace();
+        towel1.washTowel();
+        towel1.dryBody();
+
+        Toothbrush toothbrush1 = new MorningRoutine();
+        toothbrush1.rinseMouth();
+        toothbrush1.brushTeeth();
+        toothbrush1.applyToothpaste();
+
+        Mirror mirror1 = new MorningRoutine();
+        mirror1.lookInto();
+        mirror1.cleanMirror();
+        mirror1.adjustAngle();
+
+        Fan fan1 = new LivingRoomSetup();
+        fan1.turnOn();
+        fan1.turnOff();
+        fan1.adjustSpeed();
+
+        Light light1 = new LivingRoomSetup();
+        light1.turnOn();
+        light1.turnOff();
+        light1.adjustBrightness();
+
+        NoteTaking noteTaking1 = new CollegeBag();
+        noteTaking1.writeNote();
+        noteTaking1.deleteNote();
+        noteTaking1.highlightText();
+
+        Bottle bottle2 = new CollegeBag();
+        bottle2.drinkWater();
+        bottle2.washBottle();
+        bottle2.fillWater();
+
+        Soap soap = new BAthroomEssentials();
+        soap.applySoap();
+        soap.rinseSoap();
+        soap.drySkin();
+
+        Shampoo shampoo1 = new BAthroomEssentials();
+        shampoo1.rinseShampoo();
+        shampoo1.applyShampoo();
+        shampoo1.dryHair();
+
+
+
+
+
 
 
 
