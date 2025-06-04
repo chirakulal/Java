@@ -1,6 +1,8 @@
 package com.xworkz.inheritence;
 
-import com.xworkz.inheritence.casting.Kitchen;
+import com.xworkz.inheritence.casting.*;
+import com.xworkz.inheritence.casting.Medicines;
+import com.xworkz.inheritence.casting.Package;
 import com.xworkz.inheritence.external.*;
 import com.xworkz.inheritence.internal.*;
 
@@ -30,6 +32,11 @@ public class MainRunner {
         democracy.provideService();
         democracy.holdElection();
 
+        Parliament parliament = new Parliament();
+        parliament.election(government);
+        parliament.election(government1);
+        parliament.election(democracy);
+
         System.out.println("-----------------------------------------------------");
 
         Species species = new Species();
@@ -54,6 +61,11 @@ public class MainRunner {
         wizard.defend();
         wizard.castSpell();
 
+        Alien alien = new Alien();
+        alien.search(species);
+        alien.search(species1);
+        alien.search(wizard);
+
         System.out.println("---------------------------------------------");
 
 
@@ -72,12 +84,17 @@ public class MainRunner {
         vehicle1.speed();
 
         Truck truck = new Truck();
-        truck.Wheel();
+        truck.wheel();
         truck.brake();
         truck.accelerate();
         truck.speed();
         truck.start();
         truck.stop();
+
+        Engine engine = new Engine();
+        engine.run(vehicle);
+        engine.run(vehicle1);
+        engine.run(truck);
 
         System.out.println("-----------------------------------------------------------");
 
@@ -105,6 +122,11 @@ public class MainRunner {
         generalHospital.Ambulance();
         generalHospital.MedicalCheckup();
 
+        Medicines medicines = new Medicines();
+        medicines.buy(hospital);
+        medicines.buy(hospital1);
+        medicines.buy(generalHospital);
+
         System.out.println("--------------------------------------------------------------------------------------");
 
 
@@ -131,6 +153,12 @@ public class MainRunner {
         leafVeg.pesticide();
         leafVeg.grow();
 
+        Cabbage cabbage = new Cabbage();
+        cabbage.peel(vegetable);
+        cabbage.peel(vegetable1);
+        cabbage.peel(leafVeg);
+
+
         System.out.println("-------------------------------------------------------------");
 
 
@@ -155,6 +183,12 @@ public class MainRunner {
         school.events();
         school.exams();
         school.teach();
+        school.play();
+
+        University university = new University();
+        university.learn(education);
+        university.learn(school);
+        university.learn(education1);
 
         System.out.println("--------------------------------------------------------------------------");
 
@@ -181,6 +215,11 @@ public class MainRunner {
         lion.walk();
         lion.makesound();
 
+        Carnivores carnivores = new Carnivores();
+        carnivores.attack(animal);
+        carnivores.attack(animal1);
+        carnivores.attack(lion);
+
         System.out.println("-------------------------------------------------------");
 
 
@@ -205,6 +244,10 @@ public class MainRunner {
         circle.resize();
         circle.rotate();
 
+        Rectangle rectangle = new Rectangle();
+        rectangle.size(shape);
+        rectangle.size(shape1);
+        rectangle.size(circle);
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -229,6 +272,10 @@ public class MainRunner {
         phone.track();
         phone.videoCall();
 
+        Laptops laptops = new Laptops();
+        laptops.use(device);
+        laptops.use(device1);
+        laptops.use(phone);
         System.out.println("---------------------------------------------------------------------------");
 
         Person person = new Person();
@@ -251,6 +298,12 @@ public class MainRunner {
         teacher.eat();
         teacher.learn();
         teacher.sleep();
+        teacher.teach();
+
+        Profession profession = new Profession();
+        profession.work(person);
+        profession.work(person1);
+        profession.work(teacher);
 
         System.out.println("-------------------------------------------------------------------------");
 
@@ -272,6 +325,12 @@ public class MainRunner {
         guiter.play();
         guiter.strings();
         guiter.keys();
+
+        Piano piano = new Piano();
+        piano.music(instrument);
+        piano.music(instrument1);
+        piano.music(guiter);
+
 
         System.out.println("-------------------------------------------------------------------");
 
@@ -295,6 +354,12 @@ public class MainRunner {
         schoolBag.size();
         schoolBag.openZip();
         schoolBag.toStore();
+
+
+        OfficeBag officeBag = new OfficeBag();
+        officeBag.buy(bag);
+        officeBag.buy(bag1);
+        officeBag.buy(schoolBag);
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -320,6 +385,11 @@ public class MainRunner {
         novel.write();
         novel.read();
 
+        OnlineNovel onlineNovel = new OnlineNovel();
+        onlineNovel.buy(book);
+        onlineNovel.buy(book1);
+        onlineNovel.buy(novel);
+
         System.out.println("----------------------------------------------------------------------");
 
         Bank bank = new Bank();
@@ -342,6 +412,12 @@ public class MainRunner {
         account.deposit();
         account.withdraw();
         account.sendmsg();
+
+        Loan loan = new Loan();
+        loan.pay(bank);
+        loan.pay(bank1);
+        loan.pay(account);
+
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -367,6 +443,8 @@ public class MainRunner {
         refrigerator.runThroughElectric();
         refrigerator.storethings();
 
+
+
         System.out.println("-------------------------------------------------------------");
 
         Building building = new Building();
@@ -391,6 +469,11 @@ public class MainRunner {
         house.security();
         house.floor();
 
+        Rent rent = new Rent();
+        rent.sell(building);
+        rent.sell(building1);
+        rent.sell(house);
+
         System.out.println("-------------------------------------------------------------------");
 
         Furniture furniture = new Furniture();
@@ -413,6 +496,11 @@ public class MainRunner {
         chair.showcase();
         chair.sleep();
         chair.tostore();
+
+        Sofa sofa = new Sofa();
+        sofa.order(furniture);
+        sofa.order(furniture1);
+        sofa.order(chair);
 
         System.out.println("-----------------------------------------------------------------");
 
@@ -437,6 +525,14 @@ public class MainRunner {
         parrot.sleep();
         parrot.sing();
 
+        Pigeon pigeon = new Pigeon();
+        pigeon.passMsg(bird);
+        pigeon.passMsg(bird1);
+        pigeon.passMsg(parrot);
+
+
+
+
         System.out.println("-------------------------------------------------------------------");
 
         Food food = new Food();
@@ -459,6 +555,12 @@ public class MainRunner {
         pizza.empty();
         pizza.eat();
         pizza.ingredients();
+
+        Burger burger = new Burger();
+        burger.fry(food);
+        burger.fry(food1);
+        burger.fry(pizza);
+
 
         System.out.println("--------------------------------------------------------------------");
 
@@ -484,6 +586,11 @@ public class MainRunner {
         shirt.wear();
         shirt.tore();
 
+        Tshirt tshirt = new Tshirt();
+        tshirt.dry(cloth);
+        tshirt.dry(cloth1);
+        tshirt.dry(shirt);
+
         System.out.println("---------------------------------------------------------------------");
 
 
@@ -508,6 +615,13 @@ public class MainRunner {
         bottel.color();
         bottel.size();
 
+
+        Box box = new Box();
+        box.open(container);
+        box.open(container1);
+        box.open(bottel);
+
+
         System.out.println("---------------------------------------------------------------------");
 
         Employee employee = new Employee();
@@ -530,6 +644,12 @@ public class MainRunner {
         manager.work();
         manager.timepass();
         manager.eat();
+
+        TeamLeader teamLeader = new TeamLeader();
+        teamLeader.check(employee);
+        teamLeader.check(employee1);
+        teamLeader.check(manager);
+
 
         System.out.println("----------------------------------------------------------------------------");
 
@@ -555,6 +675,12 @@ public class MainRunner {
         teddyBear.store();
         teddyBear.throwToy();
 
+        Doll doll = new Doll();
+        doll.purchase(toy);
+        doll.purchase(toy1);
+        doll.purchase(teddyBear);
+
+
         System.out.println("------------------------------------------------------------------------");
 
 
@@ -579,6 +705,11 @@ public class MainRunner {
         router.transmitData();
         router.receiveData();
 
+        Package packages = new Package();
+        packages.data(networkDevice);
+        packages.data(networkDevice1);
+        packages.data(router);
+
         System.out.println("------------------------------------------------------------------------");
 
         Drawing drawing = new Drawing();
@@ -601,6 +732,13 @@ public class MainRunner {
         paintBrush.use();
         paintBrush.colourFull();
         paintBrush.clean();
+
+        Sketch sketch = new Sketch();
+        sketch.draw(drawing);
+        sketch.draw(drawing1);
+        sketch.draw(paintBrush);
+
+
 
         System.out.println("--------------------------------------------------------------------");
 
@@ -625,6 +763,12 @@ public class MainRunner {
         antibiotic.consume();
         antibiotic.storeProperly();
         antibiotic.prescribe();
+
+        Injection injection = new Injection();
+        injection.inject(medicine);
+        injection.inject(medicine1);
+        injection.inject(antibiotic);
+
 
 
         System.out.println("---------------------------------------------------------------------");
@@ -675,6 +819,11 @@ public class MainRunner {
         sword.sharpen();
         sword.storeSafely();
 
+        Knife knife = new Knife();
+        knife.cut(weapon);
+        knife.cut(weapon);
+        knife.cut(sword);
+
         System.out.println("------------------------------------------------------------------------");
 
         StorageDevice storageDevice = new StorageDevice();
@@ -697,6 +846,12 @@ public class MainRunner {
         hardDisk.eject();
         hardDisk.readData();
         hardDisk.writeData();
+
+        CD cd = new CD();
+        cd.read(storageDevice);
+        cd.read(storageDevice1);
+        cd.read(hardDisk);
+
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -721,6 +876,10 @@ public class MainRunner {
         watch.setAlarm();
         watch.startTimer();
 
+        Compass compass = new Compass();
+        compass.direction(timepiece);
+        compass.direction(timepiece1);
+        compass.direction(watch);
         System.out.println("------------------------------------------------------------------------");
 
 
@@ -746,6 +905,11 @@ public class MainRunner {
         oakTree.provideOxygen();
         oakTree.shedLeaves();
 
+        AppleTree appleTree = new AppleTree();
+        appleTree.plant(tree);
+        appleTree.plant(tree1);
+        appleTree.plant(oakTree);
+
         System.out.println("-----------------------------------------------------------------------");
 
         PaymentMethod paymentMethod = new PaymentMethod();
@@ -769,6 +933,12 @@ public class MainRunner {
         creditCard.makePayment();
         creditCard.validatePayment();
         creditCard.viewTransactions();
+
+        DebitCard debitCard =new DebitCard();
+        debitCard.pay(paymentMethod);
+        debitCard.pay(paymentMethod1);
+        debitCard.pay(creditCard);
+
 
         System.out.println("-----------------------------------------------------------------------");
 
@@ -794,6 +964,12 @@ public class MainRunner {
         laptop.updateSoftware();
         laptop.shutDown();
 
+        Desktop desktop = new Desktop();
+        desktop.stand(computer1);
+        desktop.stand(computer);
+        desktop.stand(laptop);
+
+
         System.out.println("-------------------------------------------------------------------------");
 
 
@@ -818,6 +994,12 @@ public class MainRunner {
         dslr.changeLens();
         dslr.viewGallery();
 
+        Canon canon = new Canon();
+        canon.capture(camera);
+        canon.capture(camera1);
+        canon.capture(dslr);
+
+
         System.out.println("-------------------------------------------------------------------------");
 
 
@@ -841,6 +1023,11 @@ public class MainRunner {
         hammer.maintain();
         hammer.storeSafely();
         hammer.use();
+
+        Axe axe = new Axe();
+        axe.cut(tool);
+        axe.cut(tool1);
+        axe.cut(hammer);
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -889,6 +1076,11 @@ public class MainRunner {
         footBall.play();
         footBall.practice();
 
+        Hockey hockey = new Hockey();
+        hockey.useStick(sport);
+        hockey.useStick(sport1);
+        hockey.useStick(footBall);
+
         System.out.println("-----------------------------------------------------------------------");
 
 
@@ -913,6 +1105,12 @@ public class MainRunner {
         coffee.prepare();
         coffee.serve();
 
+        Tea tea = new Tea();
+        tea.addLeaves(beverage);
+        tea.addLeaves(beverage1);
+        tea.addLeaves(coffee);
+
+
         System.out.println("----------------------------------------------------------------------");
 
         Planet planet = new Planet();
@@ -936,6 +1134,10 @@ public class MainRunner {
         earth.rotate();
         earth.supportLife();
 
+        Mars mars = new Mars();
+        mars.searchWater(planet);
+        mars.searchWater(planet1);
+        mars.searchWater(earth);
         System.out.println("-------------------------------------------------------------------------");
 
 
@@ -1009,6 +1211,11 @@ public class MainRunner {
         ledBulb.turnOff();
         ledBulb.turnOn();
 
+        TubeLight tubeLight = new TubeLight();
+        tubeLight.On(light);
+        tubeLight.On(light1);
+        tubeLight.On(ledBulb);
+
         System.out.println("------------------------------------------------------------------------");
 
 
@@ -1032,6 +1239,11 @@ public class MainRunner {
         rose.provideNectar();
         rose.releaseFragrance();
         rose.bloom();
+
+        RosePlant rosePlant = new RosePlant();
+        rosePlant.plant(flower);
+        rosePlant.plant(flower1);
+        rosePlant.plant(rose);
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -1058,6 +1270,12 @@ public class MainRunner {
         shark.layEggs();
         shark.swim();
 
+        Dolphine dolphine = new Dolphine();
+        dolphine.swim(fish);
+        dolphine.swim(fish1);
+        dolphine.swim(shark);
+
+
         System.out.println("-----------------------------------------------------------------------");
 
 
@@ -1081,6 +1299,11 @@ public class MainRunner {
         everest.supportEcosystem();
         everest.experienceWeatherChanges();
         everest.standTall();
+
+        Hiking hiking = new Hiking();
+        hiking.climb(mountain);
+        hiking.climb(mountain1);
+        hiking.climb(everest);
 
         System.out.println("---------------------------------------------------------------------------");
 
@@ -1128,6 +1351,11 @@ public class MainRunner {
         magazine.provideInformation();
         magazine.updateDaily();
 
+        Article article = new Article();
+        article.edit(newspaper);
+        article.edit(newspaper1);
+        article.edit(magazine);
+
         System.out.println("---------------------------------------------------------------------------");
 
         Gemstone gemstone = new Gemstone();
@@ -1151,6 +1379,11 @@ public class MainRunner {
         diamond.sell();
         diamond.shine();
 
+        Gold gold = new Gold();
+        gold.purchase(gemstone);
+        gold.purchase(gemstone1);
+        gold.purchase(diamond);
+
         System.out.println("------------------------------------------------------------------------------");
 
         Document document = new Document();
@@ -1173,6 +1406,11 @@ public class MainRunner {
         books.read();
         books.save();
         books.write();
+
+        Report report = new Report();
+        report.check(document);
+        report.check(document1);
+        report.check(books);
 
         System.out.println("------------------------------------------------------------------------");
 
@@ -1198,6 +1436,11 @@ public class MainRunner {
         butterfly.undergoMetamorphosis();
         butterfly.fly();
 
+        HoneyBee honeyBee = new HoneyBee();
+        honeyBee.formBee(insect);
+        honeyBee.formBee(insect1);
+        honeyBee.formBee(butterfly);
+
         System.out.println("--------------------------------------------------------------------------");
 
         Jewel jewel = new Jewel();
@@ -1221,6 +1464,11 @@ public class MainRunner {
         necklace.store();
         necklace.wear();
 
+        Earring earring = new Earring();
+        earring.buy(jewel);
+        earring.buy(jewel1);
+        earring.buy(necklace);
+
         System.out.println("------------------------------------------------------------------------");
 
         Language language = new Language();
@@ -1243,6 +1491,11 @@ public class MainRunner {
         english.translate();
         english.write();
         english.speak();
+
+        Kannada kannada = new Kannada();
+        kannada.talk(language);
+        kannada.talk(language1);
+        kannada.talk(english);
 
         System.out.println("---------------------------------------------------------------------");
 
@@ -2348,6 +2601,11 @@ public class MainRunner {
         coffeeMug.pour();
         coffeeMug.heat();
         coffeeMug.clean();
+
+        Utensils utensils = new Utensils();
+        utensils.wash(mug);
+        utensils.wash(mug1);
+        utensils.wash(coffeeMug);
 
         System.out.println("-----------------------------------------------------------------------");
 
