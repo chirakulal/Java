@@ -39,66 +39,66 @@
         <div class="form-container mx-auto">
             <h1>Birth Certificate</h1>
             <form action="birthcertificate" method="POST">
-            <div class="mb-3">
-                <label class="form-label">Birth ID:</label>
-                <input type="number" class="form-control" name="birth" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Birth ID:</label>
+                    <input type="number" class="form-control" name="birth" required>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Hospital Name:</label>
-                <select name="hospitalName" class="form-select" required>
-                    <option value="">Select</option>
-                    <option>Nitte</option>
-                    <option>Yenopoya</option>
-                    <option>Kanachur</option>
-                    <option>Indiana</option>
-                </select>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Hospital Name:</label>
+                    <select name="hospitalName" class="form-select" required>
+                        <option value="">Select</option>
+                        <option>Nitte</option>
+                        <option>Yenopoya</option>
+                        <option>Kanachur</option>
+                        <option>Indiana</option>
+                    </select>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Father's Name:</label>
-                <input type="text" class="form-control" name="farther" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Father's Name:</label>
+                    <input type="text" class="form-control" name="farther" required>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Mother's Name:</label>
-                <input type="text" class="form-control" name="mother" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Mother's Name:</label>
+                    <input type="text" class="form-control" name="mother" required>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Date of Birth:</label>
-                <input type="date" class="form-control" name="date" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Date of Birth:</label>
+                    <input type="date" class="form-control" name="date" required>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Doctor's Name:</label>
-                <input type="text" class="form-control" name="doctor" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Doctor's Name:</label>
+                    <input type="text" class="form-control" name="doctor" required>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Nurse's Name:</label>
-                <input type="text" class="form-control" name="nurse" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Nurse's Name:</label>
+                    <input type="text" class="form-control" name="nurse" required>
+                </div>
 
-            <div class="mb-4">
-                <label class="form-label">Hospital Type:</label>
-                <select name="hospitalType" class="form-select" required>
-                    <option value="">Select</option>
-                    <option>0</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
-            </div>
+                <div class="mb-4">
+                    <label class="form-label">Hospital Type:</label>
+                    <select name="hospitalType" class="form-select" required>
+                        <option value="">Select</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
 
-            <div class="d-grid">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
 </body>
 </html>

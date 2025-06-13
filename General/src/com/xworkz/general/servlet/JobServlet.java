@@ -26,14 +26,14 @@ public class JobServlet extends HttpServlet {
         String  expectedSalary = req.getParameter("expectedSalary");
         String experience = req.getParameter("experience");
 
-      double expectedSalaryyy = Double.parseDouble(expectedSalary);
-       Integer experiences = Integer.parseInt(experience);
+        double expectedSalaryyy = Double.parseDouble(expectedSalary);
+        Integer experiences = Integer.parseInt(experience);
 
-       JobDTO jobDTO = new JobDTO(name,email,education,skills,experiences,expectedSalaryyy);
+        JobDTO jobDTO = new JobDTO(name,email,education,skills,experiences,expectedSalaryyy);
         System.out.println("Job Application : "+jobDTO);
 
         JobService jobService = new JobServiceImpl();
-         String job = jobService.validateAndSave( jobDTO);
+        String job = jobService.validateAndSave( jobDTO);
         System.out.println("JobService : "+job);
 
 

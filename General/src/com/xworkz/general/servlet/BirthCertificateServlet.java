@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.LocalDate;
 
-@WebServlet(urlPatterns = "/birthcertificate", loadOnStartup = 1)
+@WebServlet(urlPatterns ="/birthcertificate", loadOnStartup = 1)
 public class BirthCertificateServlet extends HttpServlet {
 
     @Override
@@ -37,8 +37,10 @@ public class BirthCertificateServlet extends HttpServlet {
         System.out.println("BirthCertificate : "+birthCertificateDTO);
 
         BirthCertificateService birthCertificateService = new BirthCertificateServiceImpl();
-       String birth = birthCertificateService.validateAndSave(birthCertificateDTO);
+        String birth = birthCertificateService.validateAndSave(birthCertificateDTO);
         System.out.println("BirthCertificate :"+birth);
+
+
 
 
 

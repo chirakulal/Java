@@ -53,4 +53,61 @@ public class DeathCertificateDTO implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getCause() {
+        return cause;
+    }
+
+    public void setCause(String cause) {
+        this.cause = cause;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public LocalTime getTime() {
+        return time;
+    }
+
+    public void setTime(LocalTime time) {
+        this.time = time;
+    }
+
+    public int getAgeAtDeath() {
+        return ageAtDeath;
+    }
+
+    public void setAgeAtDeath(int ageAtDeath) {
+        this.ageAtDeath = ageAtDeath;
+    }
+
+    public String getCertifyBy() {
+        return certifyBy;
+    }
+
+    public void setCertifyBy(String certifyBy) {
+        this.certifyBy = certifyBy;
+    }
+
+    public String getHospitalName() {
+        return hospitalName;
+    }
+
+    public void setHospitalName(String hospitalName) {
+        this.hospitalName = hospitalName;
+    }
+
+    public String getMannerOfDeath() {
+        return mannerOfDeath;
+    }
+
+    public void setMannerOfDeath(String mannerOfDeath) {
+        this.mannerOfDeath = mannerOfDeath;
+    }
 }
+

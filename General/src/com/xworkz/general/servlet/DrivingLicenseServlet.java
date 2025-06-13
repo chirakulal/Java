@@ -30,7 +30,7 @@ public class DrivingLicenseServlet extends HttpServlet {
         System.out.println(drivingLicenseDTO);
 
         DrivingLicenseService drivingLicenseService = new DrivingLicenseServiceImpl();
-       String drive =  drivingLicenseService.validateAndSave(drivingLicenseDTO);
+        String drive =  drivingLicenseService.validateAndSave(drivingLicenseDTO);
         System.out.println("DrivingLicense : "+drive);
 
 
