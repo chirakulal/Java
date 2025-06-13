@@ -37,7 +37,7 @@
 <div class="d-flex justify-content-center align-items-start py-5">
     <div class="container">
         <div class="form-container mx-auto">
-            <h1>Death Certificate</h1>
+            <h1>Marriage Certificate</h1>
             <form action="marriageCertificate" method="POST">
                 <div class="mb-3">
                     <label class="form-label">Groom Name</label>
@@ -86,8 +86,6 @@
                     <label class="form-label">Officer Present</label>
                     <input type="text" class="form-control" name="officer" required>
                 </div>
-
-
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>

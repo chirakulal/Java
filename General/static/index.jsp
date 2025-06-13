@@ -17,13 +17,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="JobApllication.jsp">Job Application</a>
+                    <a class="nav-link active" aria-current="page" href="jobAplication.jsp">Job Application</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="BirthCertificate.jsp">Birth Certificate</a>
+                    <a class="nav-link" aria-current="page" href="birthCertificate.jsp">Birth Certificate</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="PassportServlet.jsp">Passport</a>
+                    <a class="nav-link" aria-current="page" href="Passport.jsp">Passport</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="DeathCertificate.jsp">Death Certificate</a>

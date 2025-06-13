@@ -6,7 +6,7 @@ import com.xworkz.general.dto.PassportDTO;
 import com.xworkz.general.service.PassportService;
 import com.xworkz.general.service.PassportServiceImpl;
 
-import javax.servlet.RequestDispatcher;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -38,7 +38,7 @@ public class PassportServlet extends HttpServlet {
         System.out.println("Passport : "+passportDTO);
 
         PassportService passportService = new PassportServiceImpl();
-       String passport = passportService.validateAndSave(passportDTO);
+        String passport = passportService.validateAndSave(passportDTO);
         System.out.println("Passport :"+passport);
 
 
