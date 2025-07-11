@@ -2,6 +2,7 @@ package com.xworkz.set.dto;
 
 import java.util.Objects;
 
+
 public class LaptopDTO {
     public String brand;
     public String model;

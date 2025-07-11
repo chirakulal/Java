@@ -124,6 +124,7 @@ public class BookDTO {
         return Objects.hash(title, author, publisher, isbn, pages, price, genre, edition, hardcover, language);
     }
 
+
     @Override
     public String toString() {
         return "BookDTO{" +

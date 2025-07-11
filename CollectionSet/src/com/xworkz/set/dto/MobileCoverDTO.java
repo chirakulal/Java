@@ -2,6 +2,7 @@ package com.xworkz.set.dto;
 
 import java.util.Objects;
 
+
 public class MobileCoverDTO {
 
     private String brand;
