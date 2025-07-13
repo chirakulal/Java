@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="289bfa75-5f2a-476a-80b5-97e2feef1f59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Abstractclass/Abstractclass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccessSpecifier/AccessSpecifier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Casting/Casting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Casting/src/com/xworkz/casting/MainRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Castingg/Inheritence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Castingg/src/com/xworkz/inheritence/MainRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class(instance variable)/Class(instance variable).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassAsParameterAndLocal/ClassAsParameterAndLocal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassAsReference/ClassAsReference.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassAsReference/src/com/xworkz/reference/MainRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classwork/Classwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classwork/src/com/xworkz/instance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EcapsulationandStatic/EcapsulationandStatic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encapsulationandstatic/Encapsulationandstatic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExampleforInheritence/ExampleforInheritence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritence/Inheritence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_reference_and_variables/Java_reference_and_variables.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../March20/March20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Overriding/Inheritence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../equals/Inheritence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hashCode/Inheritence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../string/Inheritence.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritence/src/com/xworkz/inheritence/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritence/src/com/xworkz/inheritence/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Overriding/src/com/xworkz/inheritence/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Overriding/src/com/xworkz/inheritence/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hashCode/src/com/xworkz/inheritence/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hashCode/src/com/xworkz/inheritence/MainRunner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chirakulal"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chirakulal/Java",
+    "accountId": "a8d39890-98e7-463a-bdff-9253980389d1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2voRelkbxvniq7mGDaATFdkm6BY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "xwork-z",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="289bfa75-5f2a-476a-80b5-97e2feef1f59" name="Changes" comment="" />
+      <created>1744809547494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744809547494</updated>
+    </task>
+    <servers />
+  </component>
+</project>

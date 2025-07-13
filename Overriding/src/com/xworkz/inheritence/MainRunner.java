@@ -1,5 +1,6 @@
 package com.xworkz.inheritence;
 
+import com.xworkz.inheritence.casting.Kitchen;
 import com.xworkz.inheritence.external.*;
 import com.xworkz.inheritence.internal.*;
 
@@ -2372,10 +2373,13 @@ public class MainRunner {
         microwaveOven.preheat();
         microwaveOven.turnOff();
 
+        Kitchen kitchen = new Kitchen();
+        kitchen.cook(oven);
+        kitchen.cook(oven1);
+        kitchen.cook(microwaveOven);
+
         System.out.println("---------------------------------------------------------------------------");
 
-
-        
 
 
     }

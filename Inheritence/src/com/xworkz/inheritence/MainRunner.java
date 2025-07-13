@@ -2,7 +2,6 @@ package com.xworkz.inheritence;
 
 import com.xworkz.inheritence.external.*;
 import com.xworkz.inheritence.internal.*;
-import sun.applet.Main;
 
 public class MainRunner {
 
@@ -318,7 +317,6 @@ public class MainRunner {
 
         Lion lion = new Lion();
         lion.breathe();
-        ;
         lion.eat();
         lion.sleep();
         lion.walk();
@@ -3180,7 +3178,6 @@ public class MainRunner {
 
         System.out.println("---------------------------------------------------------------------------");
 
-        
 
     }
 }

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="550ed035-310c-40fe-b6c4-35e29ff08e6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classesasparameters/Classesasparameters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classwork/src/com/xworkz/access/Access.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classwork/src/com/xworkz/instance/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classwork/src/com/xworkz/instance/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Classwork/src/com/xworkz/instance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_reference_and_variables/src/com/xworkz/javareferenceandvariable/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_reference_and_variables/src/com/xworkz/javareferenceandvariable/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_reference_and_variables/src/com/xworkz/javareferenceandvariable/Ward.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_reference_and_variables/src/com/xworkz/javareferenceandvariable/Ward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../March20/src/com/xworkz/March20/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../March20/src/com/xworkz/March20/Cricket.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chirakulal"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/chirakulal/Java",
+    "accountId": "a8d39890-98e7-463a-bdff-9253980389d1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ukdDA3EvUnj1SzlePoYJyYuQnP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#6 on xwork-z",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Documents/GITT/Java/March20"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="550ed035-310c-40fe-b6c4-35e29ff08e6c" name="Changes" comment="" />
+      <created>1742796383727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742796383727</updated>
+    </task>
+    <servers />
+  </component>
+</project>
