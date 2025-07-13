@@ -9,4 +9,6 @@ public interface BookRepository {
     String save(BookDTO bookDTO);
 
     List<BookDTO> getDetails();
+
+    BookDTO getById(int id);
 }

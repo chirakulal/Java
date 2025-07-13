@@ -79,4 +79,42 @@ public class BookRepositoryImpl implements BookRepository {
         System.out.println(list);
         return list;
     }
+
+    @Override
+    public BookDTO getById(int id) {
+        try {
+            Class.forName(DBConstant.Driver.getProp());
+            Connection connection = DriverManager.getConnection(DBConstant.URL.getProp(), DBConstant.USERNAME.getProp(), DBConstant.PASSWORD.getProp());
+            String sql = "Select * from book_details where id=?";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1,id);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                String name = resultSet.getString("bookname");
+                String author = resultSet.getString("author");
+                int prize = resultSet.getInt("prize");
+                int volume = resultSet.getInt("volume");
+
+                BookDTO bookDTO1 = new BookDTO();
+                bookDTO1.setVolume(volume);
+                bookDTO1.setName(name);
+                bookDTO1.setPrize(prize);
+                bookDTO1.setAuthor(author);
+                bookDTO1.setId(id);
+
+
+
+                System.out.println(bookDTO1);
+                return bookDTO1;
+            }
+            System.out.println(connection);
+        } catch (ClassNotFoundException | SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+
+        return null;
+    }
+
+
 }

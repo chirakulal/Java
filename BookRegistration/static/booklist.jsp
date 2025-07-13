@@ -10,15 +10,17 @@
 </head>
 <body class="bg-light">
 <div class="container mt-5">
-    <h2 class="mb-4">Book List</h2>
+    <h2 class="mb-4 text-center">Book List</h2>
     <table class="table table-bordered table-striped">
-        <thead class="table-dark">
+        <thead class="table-dark text-center">
         <tr>
             <th>ID</th>
             <th>Book Name</th>
             <th>Author</th>
             <th>Price (₹)</th>
             <th>Volume</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
         </thead>
         <tbody>
@@ -29,6 +31,15 @@
                 <td>${book.author}</td>
                 <td>${book.prize}</td>
                 <td>${book.volume}</td>
+                <td class="text-center">
+                    <a href="editBook?id=${book.id}" class="btn btn-sm btn-warning">Edit</a>
+                </td>
+                <td class="text-center">
+                    <a href="deleteBook?id=${book.id}" class="btn btn-sm btn-danger"
+                       onclick="return confirm('Are you sure you want to delete this book?');">
+                        Delete
+                    </a>
+                </td>
             </tr>
         </c:forEach>
         </tbody>
