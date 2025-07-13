@@ -33,9 +33,16 @@ public class BookServlet extends HttpServlet {
         bookDTO.setVolume(volumes);
 
         BookService bookService = new BookServiceImpl();
-        bookService.validate(bookDTO);
+        String result = bookService.validate(bookDTO);
         System.out.println(bookDTO);
-
+        if (!result.equals("submitted successfully")) {
+            req.setAttribute("dto", bookDTO);
+             req.setAttribute("error",result);
+        }else {
+            req.setAttribute("success",result);
+        }
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("BookRegistration.jsp");
+        requestDispatcher.forward(req, resp);
 
     }
 
