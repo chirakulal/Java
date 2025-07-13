@@ -10,4 +10,7 @@ public interface BookService {
 
     List<BookDTO> getDetails();
 
+    BookDTO getById(int id);
+
+
 }

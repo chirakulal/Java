@@ -10,12 +10,23 @@ import java.util.List;
 public class BookServiceImpl implements BookService {
     @Override
     public String validate(BookDTO bookDTO) {
+        String name = bookDTO.getName();
+        if(name.isEmpty() ||name.length()>30){
+            System.out.println("name is too long or short");
+            return "Please enter the BOOK name";
+        }
+        String author = bookDTO.getAuthor();
+        if(author.isEmpty()){
+            System.out.println("enter author name");
+            return "Please enter author name";
+        }
+
         if (bookDTO != null) {
             BookRepository bookRepository = new BookRepositoryImpl();
             bookRepository.save(bookDTO);
             System.out.println(bookDTO);
         }
-        return "null pointer";
+        return "submitted successfully";
     }
 
     @Override
@@ -34,4 +45,17 @@ public class BookServiceImpl implements BookService {
         return list;
 
     }
+
+    @Override
+    public BookDTO getById(int id) {
+        if (id > 0) {
+            BookRepository bookRepository = new BookRepositoryImpl();
+            BookDTO bookDTO = bookRepository.getById(id);
+            System.out.println(bookDTO);
+            return bookDTO;
+        }
+
+        return null;
+    }
+
 }
