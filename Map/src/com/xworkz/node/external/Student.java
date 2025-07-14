@@ -6,6 +6,7 @@ import java.util.Map;
 public class Student {
 
 
+
     public static void main(String[] args) {
         Map<Integer,String> map = new HashMap<>();
         map.put(01,"Abhishek");

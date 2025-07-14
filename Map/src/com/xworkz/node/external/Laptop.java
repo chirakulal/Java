@@ -6,6 +6,7 @@ import java.util.Map;
 public class Laptop {
 
 
+
     public static void main(String[] args) {
         Map<String,Integer> map = new HashMap<>();
         map.put("Lenavo",100000);
