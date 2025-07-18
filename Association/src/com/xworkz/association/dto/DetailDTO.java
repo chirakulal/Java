@@ -15,5 +15,4 @@ public class DetailDTO {
     private String address;
     private String nationality;
     private EducationDTO educationDTO;
-
 }

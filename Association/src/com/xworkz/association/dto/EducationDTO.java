@@ -16,5 +16,4 @@ public class EducationDTO {
     private String specialization;
     private UniversityDTO universityDTO;
 
-
 }

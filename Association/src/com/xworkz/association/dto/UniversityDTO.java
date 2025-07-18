@@ -16,5 +16,4 @@ public class UniversityDTO {
     private int establishedYear;
     private ChancellorDTO chancellor;
 
-
 }

@@ -15,5 +15,4 @@ public class StaffDTO {
     private String shift;
     private double salary;
     private DetailDTO details;
-
 }

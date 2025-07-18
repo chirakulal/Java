@@ -14,5 +14,4 @@ public class PortfolioDTO {
     private String responsibility;
     private String location;
     private DepartmentDTO departmentDTO;
-
 }
