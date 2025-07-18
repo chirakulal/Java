@@ -16,4 +16,5 @@ public class CountryDto {
     private long population;
     private double gdp;
     private List<StateDTO> states;
+
 }

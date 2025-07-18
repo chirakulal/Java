@@ -16,4 +16,5 @@ public class MinisterDTO {
     private int age;
     private String contactNumber;
     private List<PortfolioDTO> portfolioDTOList;
+
 }

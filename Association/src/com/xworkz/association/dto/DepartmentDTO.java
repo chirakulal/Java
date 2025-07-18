@@ -14,4 +14,5 @@ public class DepartmentDTO {
     private double budget;
     private int noOfStaff;
     private HeadOfDepartmentDTO headOfDepartment;
+
 }

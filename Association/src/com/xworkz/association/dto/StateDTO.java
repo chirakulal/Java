@@ -15,4 +15,5 @@ public class StateDTO {
     private int noOfDistricts;
     private double areaInSqKm;
     private List<MinisterDTO> ministerDTOS;
+
 }

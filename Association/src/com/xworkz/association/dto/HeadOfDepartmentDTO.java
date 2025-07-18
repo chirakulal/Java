@@ -16,4 +16,5 @@ public class HeadOfDepartmentDTO {
     private String email;
     private String specialization;
     private List<StaffDTO> staffDTOList;
+
 }
