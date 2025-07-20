@@ -9,6 +9,7 @@ import java.util.List;
 @NoArgsConstructor
 @Setter
 @Getter
+@ToString
 public class StateDTO {
     private String name;
     private String cmName;
